@@ -1,3 +1,9 @@
-numpy
+numpy==2.4.0
+
+# === Data Handling ===
+pyYAML==6.0.3
+
+# === Market Data ===
+yfinance==1.0
 
 -e .
