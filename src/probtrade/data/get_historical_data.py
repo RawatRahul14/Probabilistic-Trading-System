@@ -29,6 +29,14 @@ from probtrade.utils import (
     load_yaml
 )
 
-def download_data(
+class HistoricalData:
+    def __init__(
+            self
+    ):
+        """
+        Downloads the historical data for index and stocks
+        """
+        pass
+
+    def download_data(self):
         
-)
