@@ -1,6 +1,9 @@
 # === Python Modules ===
 from typing import TypedDict, List
 
+# === Schema ===
+from probtrade.market_intelligence.langgraph.config.config import SentimentConfig
+
 # === AgentState ===
 class AgentState(TypedDict):
 
@@ -12,3 +15,6 @@ class AgentState(TypedDict):
 
     ## === Contents ===
     contents: List[str]
+
+    ## === Sentiments ===
+    sentiments: List[SentimentConfig]

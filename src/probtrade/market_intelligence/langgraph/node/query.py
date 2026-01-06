@@ -1,18 +1,11 @@
 # === Python modules ===
 from typing import List
-from dotenv import load_dotenv
 
 # === Utils ===
-from probtrade.utils import load_yaml, get_date
-
-# === Tavily Search Agent ===
-from probtrade.market_intelligence import fetch_data_tavily
+from probtrade.utils import load_yaml
 
 # === Agentstate ===
-from .state import AgentState
-
-# === Loading env keys ===
-load_dotenv()
+from probtrade.market_intelligence.langgraph.state import AgentState
 
 # === Query Generation Node ===
 def get_queries(
@@ -38,23 +31,5 @@ def get_queries(
         queries.append(data["queries"][q]["query"])
 
     state["queries"] = queries
-
-    return state
-
-# === Fetch Data ===
-def fetch_data(
-        state: AgentState
-) -> AgentState:
-    """
-    Fetches data using the Tavily search client.
-    """
-    ## === All responses ===
-    all_response: List[str] = []
-
-    ## === Looping through the queries ===
-    for query in state["queries"]:
-        all_response.extend(fetch_data_tavily(query = query))
-
-    state["contents"] = all_response
 
     return state

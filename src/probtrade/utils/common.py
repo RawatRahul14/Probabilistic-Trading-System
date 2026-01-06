@@ -87,3 +87,26 @@ def save_yaml(
         raise RuntimeError(
             f"Failed to save YAML file '{file_name}': {str(e)}"
         )
+
+# === Function to read .md files ===
+def read_md(
+        file_path: str | Path
+) -> str:
+    """
+    Reads a Markdown (.md) file and returns its content as a string.
+
+    Args:
+        file_path (str | Path): Path to the markdown file.
+
+    Returns:
+        str: Content of the markdown file.
+    """
+    path = Path(file_path)
+
+    if not path.exists():
+        raise FileNotFoundError(f"Markdown file not found: {path}")
+
+    if path.suffix.lower() != ".md":
+        raise ValueError(f"Expected a .md file, got: {path.suffix}")
+
+    return path.read_text(encoding = "utf-8")

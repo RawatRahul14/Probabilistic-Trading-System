@@ -6,9 +6,11 @@ from langgraph.graph.state import StateGraph
 from .state import AgentState
 
 # === Nodes ===
-from .nodes import (
+from .node import (
     get_queries,
-    fetch_data
+    fetch_data,
+    get_sentiment,
+    save_node
 )
 
 # === Graph Workflow ===
@@ -30,6 +32,16 @@ def run_graph():
         fetch_data
     )
 
+    workflow.add_node(
+        "Node_3_get_sentiment",
+        get_sentiment
+    )
+
+    workflow.add_node(
+        "Node_4_save_node",
+        save_node
+    )
+
     ## === Edges ===
     workflow.add_edge(
         START, "Node_1_Get_Queries"
@@ -40,7 +52,15 @@ def run_graph():
     )
 
     workflow.add_edge(
-        "Node_2_fetch_data", END
+        "Node_2_fetch_data", "Node_3_get_sentiment"
+    )
+
+    workflow.add_edge(
+        "Node_3_get_sentiment", "Node_4_save_node"
+    )
+
+    workflow.add_edge(
+        "Node_4_save_node", END
     )
 
     return workflow.compile()
