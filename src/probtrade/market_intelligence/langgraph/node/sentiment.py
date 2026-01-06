@@ -12,6 +12,15 @@ from probtrade.market_intelligence.langgraph.config.config import SentimentConfi
 # === AgentState ===
 from probtrade.market_intelligence.langgraph.state import AgentState
 
+# === Logger ===
+from probtrade import get_logger
+
+## === Setting up the logger ===
+logger = get_logger(
+    name = "NEWS_DATA",
+    log_file = "news_data.log"
+)
+
 # === Function to get the sentiment scores of the fetched news data ===
 def get_sentiment(
         state: AgentState
@@ -19,6 +28,9 @@ def get_sentiment(
     """
     Usnig OpenAI's ChatOpenAI, finding the sentiment of the fetched news articles.
     """
+    ## === Node intiating ===
+    logger.info("Initiated the `get_sentiment_node`.")
+
     ## === LLM model ===
     llm = ChatOpenAI(
         model = "gpt-4o-mini",
@@ -60,5 +72,6 @@ def get_sentiment(
         )
 
     state["sentiments"] = sentiments
+    logger.info("Finished the `get_sentiment_node`.")
 
     return state
