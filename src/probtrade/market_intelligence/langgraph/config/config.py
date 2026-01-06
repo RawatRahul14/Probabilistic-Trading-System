@@ -5,4 +5,4 @@ from typing import TypedDict, Literal
 class SentimentConfig(TypedDict):
     content: str
     sentiment_score: int
-    news_impact: Literal["low", "medium", "high"]
+    news_impact: Literal["very_low", "low", "medium", "high", "very_high"]
