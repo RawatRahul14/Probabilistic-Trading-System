@@ -16,4 +16,7 @@ tavily-python==0.7.17
 pydantic==2.12.5
 python-dotenv==1.2.1
 
+# === Cpp ===
+pybind11==3.0.1
+
 -e .
