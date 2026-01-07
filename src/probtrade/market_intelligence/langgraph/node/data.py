@@ -1,4 +1,5 @@
 # === Python modules ===
+import time
 from typing import List
 
 # === Tavily Search Agent ===
@@ -23,17 +24,30 @@ def fetch_data(
     """
     Fetches data using the Tavily search client.
     """
+    ## === Start Time ===
+    start_time = time.perf_counter()
+
     ## === Node intiating ===
     logger.info("Initiated the `fetch_data_node`.")
 
     ## === All responses ===
     all_response: List[str] = []
 
-    ## === Looping through the queries ===
-    for query in state["queries"]:
-        all_response.extend(fetch_data_tavily(query = query))
+    try:
+        ## === Looping through the queries ===
+        for query in state["queries"]:
+            all_response.extend(fetch_data_tavily(query = query))
 
-    state["contents"] = all_response
-    logger.info("Finished the `fetch_data_node`.")
+        state["contents"] = all_response
+
+        ## === Stop Time ===
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+
+        logger.info(f"Finished the `fetch_data_node`, Duration = {duration:.2f}s, Articles = {len(all_response)}.")
+
+    except Exception as e:
+        logger.exception("Error occurred in `fetch_data_node`")
+        raise
 
     return state

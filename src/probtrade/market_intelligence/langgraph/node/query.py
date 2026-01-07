@@ -1,5 +1,6 @@
 # === Python modules ===
 from typing import List
+import time
 
 # === Utils ===
 from probtrade.utils import load_yaml
@@ -23,6 +24,9 @@ def get_queries(
     """
     Loads the queries from the yaml file
     """
+    ## === Start Time ===
+    start_time = time.perf_counter()
+
     ## === Node intiating ===
     logger.info("Initiated the `get_queries_node`.")
 
@@ -36,11 +40,20 @@ def get_queries(
     ## === Initialising an empty list ===
     queries: List[str] = []
 
-    ## === Looping through the data ===
-    for q in data.get("queries"):
-        queries.append(data["queries"][q]["query"])
+    try:
+        ## === Looping through the data ===
+        for q in data.get("queries"):
+            queries.append(data["queries"][q]["query"])
 
-    state["queries"] = queries
-    logger.info("Finished the `get_queries_node`.")
+        state["queries"] = queries
+
+        ## === Stop Time ===
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+
+        logger.info(f"Finished the `get_queries_node`, Duration = {duration:.2f}s.")
+
+    except Exception as e:
+        logger.exception("Error occurred in `get_queries_node`")
 
     return state

@@ -1,3 +1,6 @@
+# === Python Modules ===
+import time
+
 # === Utils ===
 from probtrade.utils import append_sentiments_with_timestamp
 
@@ -23,15 +26,26 @@ def save_node(
     """
     Saves the sentiment data in a json file 
     """
+    ## === Start Time ===
+    start_time = time.perf_counter()
+
     ## === Node intiating ===
     logger.info("Initiated the `save_node_node`.")
 
-    ## === Saving the data ===
-    append_sentiments_with_timestamp(
-        sentiments = state.get("sentiments"),
-        file_path = "news/sentiment_data.json"
-    )
+    try:
+        ## === Saving the data ===
+        append_sentiments_with_timestamp(
+            sentiments = state.get("sentiments"),
+            file_path = "news/sentiment_data.json"
+        )
 
-    logger.info("Finished the `save_node_node`.")
+        ## === Stop Time ===
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+
+        logger.info(f"Finished the `save_node_node`, Duration = {duration:.2f}s.")
+
+    except Exception as e:
+        logger.exception("Error occurred in `save_node_node`")
 
     return state
