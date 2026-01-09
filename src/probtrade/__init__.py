@@ -13,7 +13,12 @@ LOG_DIR.mkdir(
 # === Logger Function ===
 def get_logger(
         name: str,
-        log_file: Literal["NEWS_DATA"],
+        log_file: Literal[
+            "news_data.log",
+            "main.log",
+            "sentiment.log",
+            "save_sentiment.log"
+        ],
         level: int = logging.INFO
 ) -> logging.Logger:
     """

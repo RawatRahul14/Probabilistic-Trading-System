@@ -4,7 +4,8 @@ from datetime import date
 # === Pipelines ===
 from probtrade.pipelines import (
     AgenticAiPipeline,
-    SentimentAggPipeline
+    SentimentAggPipeline,
+    SentimentSavePipeline
 )
 
 # === Logger ===
@@ -34,7 +35,13 @@ def main():
         agg_sentiment = SentimentAggPipeline().main(state = state)
         logger.info("Completed the 2nd pipeline: `SentimentAggPipeline`.")
 
-        logger.info("=" * 70, "\n")
+        ## === 3rd Pipeline ===
+        logger.info("Started the 3rd pipeline: `SentimentSavePipeline`.")
+        agg_sentiment_db = SentimentSavePipeline()
+        agg_sentiment_db.main(sentiment = agg_sentiment)
+        logger.info("Completed the 3rd pipeline: `SentimentSavePipeline`.")
+
+        logger.info("=" * 70 + "\n")
 
         return agg_sentiment
     

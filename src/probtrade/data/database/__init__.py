@@ -1,4 +1,4 @@
-from .database import (
+from .save_sentiment import (
     AggDuckDB
 )
 

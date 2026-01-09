@@ -57,7 +57,7 @@ class SentimentAggPipeline:
             duration = end_time - start_time
 
             self.logger.info(f"Finished computing the aggregated sentiment using cpp, Duration: {duration}.")
-            self.logger.info("=" * 70, "\n")
+            self.logger.info("=" * 70 + "\n")
 
             return round(agg_sentiment, 3)
 
