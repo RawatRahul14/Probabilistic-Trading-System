@@ -1,7 +1,8 @@
 # === Python Modules ===
 from typing import List
-from langchain_openai import ChatOpenAI
 import time
+import asyncio
+from langchain_openai import ChatOpenAI
 
 # === Utils ===
 from probtrade.utils import read_md
@@ -49,34 +50,53 @@ async def get_sentiment(
     ## === Placeholder to hold sentiment scores ===
     sentiments: List[SentimentConfig] = []
 
-    try:
-        ## === Looping through the news ===
-        for news in state.get("contents"):
+    ## === Concurrency limiter ===
+    semaphore = asyncio.Semaphore(5)
 
-            ## === Setting up the user prompt ===
-            user_prompt = (
-                "Analyze the following financial news item:\n\n"
-                f"{news}"
-            )
+    async def analyze_news(news: str):
+        async with semaphore:
+            try:
+                ## === Setting up the user prompt ===
+                user_prompt = (
+                    "Analyze the following financial news item:\n\n"
+                    f"{news}"
+                )
 
-            ## === Invoking the llm model ===
-            response = llm.invoke(
-                [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ]
-            )
+                ## === Invoking the llm model asynchronously ===
+                response = await llm.ainvoke(
+                    [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt}
+                    ]
+                )
 
-            ## === Saving the data ===
-            sentiments.append(
-                {
+                return {
                     "content": news,
                     "sentiment_score": response.sentiment_score,
                     "market_bias": response.market_bias,
                     "news_impact": response.news_impact,
                     "confidence": response.confidence
                 }
-            )
+
+            except Exception:
+                logger.exception("Error occurred while processing a news item.")
+                return None
+
+    try:
+        ## === Creating async tasks ===
+        tasks = [
+            analyze_news(news)
+            for news in state.get("contents", [])
+        ]
+
+        ## === Running tasks concurrently ===
+        results = await asyncio.gather(*tasks)
+
+        ## === Filtering valid results ===
+        sentiments = [
+            result for result in results
+            if result is not None
+        ]
 
         state["sentiments"] = sentiments
 
@@ -84,9 +104,13 @@ async def get_sentiment(
         end_time = time.perf_counter()
         duration = end_time - start_time
 
-        logger.info(f"Finished the `get_sentiment_node`, Duration = {duration:.2f}s, Items = {len(sentiments)}.")
+        logger.info(
+            f"Finished the `get_sentiment_node`, "
+            f"Duration = {duration:.2f}s, "
+            f"Items = {len(sentiments)}."
+        )
 
-    except Exception as e:
+    except Exception:
         logger.exception("Error occurred in `get_sentiment_node`")
 
     return state
