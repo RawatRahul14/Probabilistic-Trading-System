@@ -14,7 +14,7 @@ class AgenticAiPipeline:
             log_file = "news_data.log"
         )
 
-    def main(self):
+    async def main(self):
         self.logger.info("=" * 70)
         self.logger.info(f">>>>>>>> DATE: {date.today()} <<<<<<<<")
         self.logger.info(">>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<")
@@ -26,7 +26,7 @@ class AgenticAiPipeline:
 
             ## === Run graph ===
             self.logger.info("Invoking agentic graph")
-            state = graph.invoke(
+            state = await graph.ainvoke(
                 input = {}
             )
 

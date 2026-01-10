@@ -23,7 +23,7 @@ logger = get_logger(
 )
 
 # === Function to get the sentiment scores of the fetched news data ===
-def get_sentiment(
+async def get_sentiment(
         state: AgentState
 ) -> AgentState:
     """

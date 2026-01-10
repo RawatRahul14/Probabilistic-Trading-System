@@ -18,7 +18,7 @@ logger = get_logger(
 )
 
 # === Main Run ===
-def main():
+async def main():
     logger.info("="*70)
     logger.info(
         f">>>>>>>> {date.today()} <<<<<<<<"
@@ -27,7 +27,7 @@ def main():
     try:
         ## === 1st Pipeline ===
         logger.info("Started the 1st pipeline: `AgenticAiPipeline`.")
-        state = AgenticAiPipeline().main()
+        state = await AgenticAiPipeline().main()
         logger.info("Completed the 1st pipeline: `AgenticAiPipeline`.")
 
         ## === 2nd Pipeline ===

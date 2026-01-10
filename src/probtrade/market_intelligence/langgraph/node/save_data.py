@@ -20,7 +20,7 @@ logger = get_logger(
 )
 
 # === Node to save the data to a json file ===
-def save_node(
+async def save_node(
         state: AgentState
 ) -> AgentState:
     """

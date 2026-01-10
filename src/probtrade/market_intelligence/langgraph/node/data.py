@@ -3,7 +3,7 @@ import time
 from typing import List
 
 # === Tavily Search Agent ===
-from probtrade.market_intelligence import fetch_data_tavily
+from probtrade.market_intelligence import fetch_data_tavily, fetch_multiple_queries
 
 # === Agentstate ===
 from probtrade.market_intelligence.langgraph.state import AgentState
@@ -18,7 +18,7 @@ logger = get_logger(
 )
 
 # === Fetch Data ===
-def fetch_data(
+async def fetch_data(
         state: AgentState
 ) -> AgentState:
     """
@@ -35,8 +35,7 @@ def fetch_data(
 
     try:
         ## === Looping through the queries ===
-        for query in state["queries"]:
-            all_response.extend(fetch_data_tavily(query = query))
+        all_response = await fetch_multiple_queries(queries = state["queries"])
 
         state["contents"] = all_response
 

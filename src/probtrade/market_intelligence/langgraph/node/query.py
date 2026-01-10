@@ -18,7 +18,7 @@ logger = get_logger(
 )
 
 # === Query Generation Node ===
-def get_queries(
+async def get_queries(
     state: AgentState
 ) -> AgentState:
     """

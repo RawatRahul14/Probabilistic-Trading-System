@@ -1,6 +1,7 @@
 # === Python Modules ===
 from langgraph.graph import START, END
 from langgraph.graph.state import StateGraph
+from langchain_core.runnables import RunnableLambda
 
 # === AgentState ===
 from .state import AgentState
@@ -24,22 +25,38 @@ def run_graph():
     ## === Nodes ===
     workflow.add_node(
         "Node_1_Get_Queries",
-        get_queries
+        RunnableLambda(get_queries).with_config(
+            {
+                "run_async": True
+            }
+        )
     )
 
     workflow.add_node(
         "Node_2_fetch_data",
-        fetch_data
+        RunnableLambda(fetch_data).with_config(
+            {
+                "run_async": True
+            }
+        )
     )
 
     workflow.add_node(
         "Node_3_get_sentiment",
-        get_sentiment
+        RunnableLambda(get_sentiment).with_config(
+            {
+                "run_async": True
+            }
+        )
     )
 
     workflow.add_node(
         "Node_4_save_node",
-        save_node
+        RunnableLambda(save_node).with_config(
+            {
+                "run_async": True
+            }
+        )
     )
 
     ## === Edges ===
