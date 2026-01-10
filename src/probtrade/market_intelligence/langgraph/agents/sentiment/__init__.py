@@ -1,6 +1,6 @@
 from .query import get_queries
 from .data import fetch_data
-from .sentiment import get_sentiment
+from .sentiment_llm import get_sentiment
 from .save_data import save_node
 
 __all__ = [

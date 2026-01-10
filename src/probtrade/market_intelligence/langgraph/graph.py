@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnableLambda
 from .state import AgentState
 
 # === Nodes ===
-from .node import (
+from .agents import (
     get_queries,
     fetch_data,
     get_sentiment,
