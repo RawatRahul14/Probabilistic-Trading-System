@@ -38,13 +38,13 @@ async def main():
 
         ## === 2nd Pipeline ===
         logger.info("Started the 2nd pipeline: `SentimentAggPipeline`.")
-        agg_sentiment = SentimentAggPipeline(run_id = run_id).main(state = state)
+        agg_sentiment, feature_data = SentimentAggPipeline(run_id = run_id).main(state = state)
         logger.info("Completed the 2nd pipeline: `SentimentAggPipeline`.")
 
         ## === 3rd Pipeline ===
         logger.info("Started the 3rd pipeline: `SentimentSavePipeline`.")
         agg_sentiment_db = SentimentSavePipeline(run_id = run_id)
-        agg_sentiment_db.main(sentiment = agg_sentiment)
+        agg_sentiment_db.main(sentiment = agg_sentiment, feature_data = feature_data)
         logger.info("Completed the 3rd pipeline: `SentimentSavePipeline`.")
 
         logger.info("=" * 70 + "\n")

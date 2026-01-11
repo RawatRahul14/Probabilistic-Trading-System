@@ -4,7 +4,10 @@ from datetime import date
 import time
 
 # === Schema ===
-from probtrade.pipelines.schemas import SentimentPipelineData
+from probtrade.schemas import SentimentPipelineData
+
+# === Utils ===
+from probtrade.utils import extract_details
 
 # === Cpp Function ===
 from probtrade.cpp import compute_news_pressure
@@ -52,7 +55,10 @@ class SentimentAggPipeline:
 
             ## === Calculating the Aggregated sentiment ===
             self.logger.info("Computing the aggregated sentiment using cpp.")
-            agg_sentiment = compute_news_pressure(data)
+            agg_sentiment: float = compute_news_pressure(data)
+
+            ## === Extravting Features ===
+            details = extract_details(data = data)
 
             ## === Stop Time ===
             end_time = time.perf_counter()
@@ -61,7 +67,7 @@ class SentimentAggPipeline:
             self.logger.info(f"Finished computing the aggregated sentiment using cpp, Duration: {duration}.")
             self.logger.info("=" * 70 + "\n")
 
-            return round(agg_sentiment, 3)
+            return round(agg_sentiment, 3), details
 
         except Exception as e:
             self.logger.exception(

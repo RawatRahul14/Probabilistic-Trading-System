@@ -16,11 +16,16 @@ from .id import (
     get_run_id
 )
 
+from .sentiment_utils import (
+    extract_details
+)
+
 __all__ = [
     "load_yaml",
     "save_yaml",
     "GetDate",
     "read_md",
     "append_sentiments_with_timestamp",
-    "get_run_id"
+    "get_run_id",
+    "extract_details"
 ]
