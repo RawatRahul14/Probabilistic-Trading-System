@@ -11,33 +11,39 @@ from probtrade.pipelines import (
 # === Logger ===
 from probtrade import get_logger
 
-# === Logger Defininf ===
+# === Utils ===
+from probtrade.utils import get_run_id
+
+# === Logger Defining ===
 logger = get_logger(
     name = "Main",
     log_file = "main.log"
 )
 
+# === Getting the run_id ===
+run_id = get_run_id()
+
 # === Main Run ===
 async def main():
     logger.info("="*70)
     logger.info(
-        f">>>>>>>> {date.today()} <<<<<<<<"
+        f">>>>>>>> {date.today()}, run_id: {run_id} <<<<<<<<"
     )
 
     try:
         ## === 1st Pipeline ===
         logger.info("Started the 1st pipeline: `AgenticAiPipeline`.")
-        state = await AgenticAiPipeline().main()
+        state = await AgenticAiPipeline(run_id = run_id).main()
         logger.info("Completed the 1st pipeline: `AgenticAiPipeline`.")
 
         ## === 2nd Pipeline ===
         logger.info("Started the 2nd pipeline: `SentimentAggPipeline`.")
-        agg_sentiment = SentimentAggPipeline().main(state = state)
+        agg_sentiment = SentimentAggPipeline(run_id = run_id).main(state = state)
         logger.info("Completed the 2nd pipeline: `SentimentAggPipeline`.")
 
         ## === 3rd Pipeline ===
         logger.info("Started the 3rd pipeline: `SentimentSavePipeline`.")
-        agg_sentiment_db = SentimentSavePipeline()
+        agg_sentiment_db = SentimentSavePipeline(run_id = run_id)
         agg_sentiment_db.main(sentiment = agg_sentiment)
         logger.info("Completed the 3rd pipeline: `SentimentSavePipeline`.")
 

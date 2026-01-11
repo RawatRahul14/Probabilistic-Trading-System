@@ -10,8 +10,10 @@ from probtrade import get_logger
 
 # === Saving the data logic ===
 class SentimentSavePipeline:
-    def __init__(self):
+    def __init__(self, run_id):
         self.db_path: str = "db/sentiment.db"
+
+        self.run_id = run_id
 
         # === Defining the Logger ===
         self.logger = get_logger(
@@ -21,7 +23,7 @@ class SentimentSavePipeline:
 
     def main(self, sentiment):
         self.logger.info("=" * 70)
-        self.logger.info(f">>>>>>>> DATE: {date.today()} <<<<<<<<")
+        self.logger.info(f">>>>>>>> DATE: {date.today()}, run_id: {self.run_id} <<<<<<<<")
         self.logger.info(">>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<")
 
         ## === Start Time ===
@@ -32,7 +34,7 @@ class SentimentSavePipeline:
             agg_database = AggDuckDB(db_path = self.db_path)
 
             # === Saving the agg sentiment ===
-            agg_database.save_agg_sentiment(agg_sentiment = sentiment)
+            agg_database.save_agg_sentiment(agg_sentiment = sentiment, run_id = self.run_id)
 
             ## === Stop Time ===
             end_time = time.perf_counter()

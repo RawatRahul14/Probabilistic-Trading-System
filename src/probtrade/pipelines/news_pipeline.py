@@ -8,15 +8,16 @@ from probtrade import get_logger
 from probtrade.market_intelligence import run_graph
 
 class AgenticAiPipeline:
-    def __init__(self):
+    def __init__(self, run_id):
         self.logger = get_logger(
             name = "NEWS_DATA",
             log_file = "news_data.log"
         )
+        self.run_id = run_id
 
     async def main(self):
         self.logger.info("=" * 70)
-        self.logger.info(f">>>>>>>> DATE: {date.today()} <<<<<<<<")
+        self.logger.info(f">>>>>>>> DATE: {date.today()}, run_id: {self.run_id} <<<<<<<<")
         self.logger.info(">>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<")
 
         try:

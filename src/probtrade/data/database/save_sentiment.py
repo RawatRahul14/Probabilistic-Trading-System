@@ -25,6 +25,7 @@ class AggDuckDB:
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS news_agg_sentiment (
                     timestamp TIMESTAMP,
+                    run_id VARCHAR,
                     agg_sentiment DOUBLE
                 )
             """)
@@ -32,6 +33,7 @@ class AggDuckDB:
     def save_agg_sentiment(
         self,
         agg_sentiment: float,
+        run_id: str,
         timestamp: datetime | None = None
     ) -> None:
         """
@@ -41,8 +43,8 @@ class AggDuckDB:
 
         with duckdb.connect(str(self.db_path)) as conn:
             conn.execute(
-                "INSERT INTO news_agg_sentiment VALUES (?, ?)",
-                (timestamp, agg_sentiment)
+                "INSERT INTO news_agg_sentiment VALUES (?, ?, ?)",
+                (timestamp, run_id, agg_sentiment)
             )
 
     def load_agg_sentiment(
@@ -57,7 +59,7 @@ class AggDuckDB:
 
         ## === Query for the Data loading ===
         query = f"""
-            SELECT timestamp, agg_sentiment
+            SELECT timestamp, run_id, agg_sentiment
             FROM news_agg_sentiment
             ORDER BY timestamp DESC
             LIMIT {limit}

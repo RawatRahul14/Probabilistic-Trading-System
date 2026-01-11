@@ -14,15 +14,17 @@ from probtrade import get_logger
 
 # === Cpp Aggregated Sentiment Function ===
 class SentimentAggPipeline:
-    def __init__(self):
+    def __init__(self, run_id):
         self.logger = get_logger(
             name = "SENTMENT_AGGREGATION",
             log_file = "sentiment.log"
         )
 
+        self.run_id = run_id
+
     def main(self, state):
         self.logger.info("=" * 70)
-        self.logger.info(f">>>>>>>> DATE: {date.today()} <<<<<<<<")
+        self.logger.info(f">>>>>>>> DATE: {date.today()}, run_id: {self.run_id} <<<<<<<<")
         self.logger.info(">>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<")
 
         ## === Start Time ===
