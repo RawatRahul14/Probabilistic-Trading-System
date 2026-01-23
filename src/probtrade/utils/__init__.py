@@ -8,6 +8,14 @@ from .get_date import (
     GetDate
 )
 
+from .time_utils import (
+    GetTime
+)
+
+from .query_utils import (
+    GetQueries
+)
+
 from .save_json import (
     append_sentiments_with_timestamp
 )
@@ -27,5 +35,7 @@ __all__ = [
     "read_md",
     "append_sentiments_with_timestamp",
     "get_run_id",
-    "extract_details"
+    "extract_details",
+    "GetTime",
+    "GetQueries"
 ]

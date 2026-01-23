@@ -19,7 +19,7 @@ from probtrade import get_logger
 class SentimentAggPipeline:
     def __init__(self, run_id):
         self.logger = get_logger(
-            name = "SENTMENT_AGGREGATION",
+            name = "SENTIMENT_AGGREGATION",
             log_file = "sentiment.log"
         )
 

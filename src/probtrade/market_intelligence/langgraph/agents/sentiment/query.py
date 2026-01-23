@@ -3,7 +3,7 @@ from typing import List
 import time
 
 # === Utils ===
-from probtrade.utils import load_yaml
+from probtrade.utils import GetQueries
 
 # === Agentstate ===
 from probtrade.market_intelligence.langgraph.state import AgentState
@@ -31,19 +31,19 @@ async def get_queries(
     logger.info("Initiated the `get_queries_node`.")
 
     ## === Loading queries from the yaml file ===
-    data = load_yaml(
-        file_path = "config",
-        file_name = "query.yaml"
-    )
+    queries_fn = GetQueries()
+    queries_data = queries_fn.get_queries()
+
     logger.info("Loaded the queries successfully.")
 
     ## === Initialising an empty list ===
     queries: List[str] = []
 
     try:
-        ## === Looping through the data ===
-        for q in data.get("queries"):
-            queries.append(data["queries"][q]["query"])
+        ## === Getting the Queries ===
+        queries = queries_fn.list_queries(
+            data = queries_data
+        )
 
         state["queries"] = queries
 
