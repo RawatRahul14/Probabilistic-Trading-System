@@ -1,5 +1,5 @@
 # === Python Modules ===
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, List
 
 # === Sentiment Pipeline Data ===
 class SentimentPipelineData(TypedDict):
@@ -26,3 +26,12 @@ class SentimentStats(TypedDict):
     BULLISH_prob: float
     BEARISH_prob: float
     NEUTRAL_prob: float
+
+# === News Stats, used in (src/probtrade/data/database/save_news.py) ===
+class NewsStat(TypedDict):
+    content: List[str]
+    sentiment_score: int
+    market_bias: Literal["BULLISH", "NEUTRAL", "BEARISH"]
+    news_impact: Literal["very_low", "low", "medium", "high", "very_high"]
+    confidence: float
+    timestamp: str
