@@ -2,10 +2,10 @@
 import time
 
 # === Utils ===
-from probtrade.utils import append_sentiments_with_timestamp
-
-# === Config ===
-from probtrade.market_intelligence.langgraph.config.config import SentimentConfig
+from probtrade.utils import (
+    append_sentiments_with_timestamp,
+    append_news
+)
 
 # === AgentState ===
 from probtrade.market_intelligence.langgraph.state import AgentState
@@ -30,22 +30,21 @@ async def save_node(
     start_time = time.perf_counter()
 
     ## === Node intiating ===
-    logger.info("Initiated the `save_node_node`.")
+    logger.info("Initiated the `save_data_node`.")
 
     try:
         ## === Saving the data ===
-        append_sentiments_with_timestamp(
-            sentiments = state.get("sentiments"),
-            file_path = "news/sentiment_data.json"
+        append_news(
+            sentiments = state.get("sentiments")
         )
 
         ## === Stop Time ===
         end_time = time.perf_counter()
         duration = end_time - start_time
 
-        logger.info(f"Finished the `save_node_node`, Duration = {duration:.2f}s.")
+        logger.info(f"Finished the `save_data_node`, Duration = {duration:.2f}s.")
 
     except Exception as e:
-        logger.exception("Error occurred in `save_node_node`")
+        logger.exception("Error occurred in `save_data_node`")
 
     return state

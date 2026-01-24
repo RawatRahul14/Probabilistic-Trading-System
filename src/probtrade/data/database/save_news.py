@@ -7,7 +7,7 @@ import pandas as pd
 # === Schema ===
 from probtrade.schemas import NewsStat
 
-# ===  ===
+# === Class Method for migrating/saving/adding/loading news data in the news db's news table ===
 class NewsDuckDB:
     def __init__(
         self,
@@ -125,6 +125,41 @@ class NewsDuckDB:
                     news_entry.get("confidence"),
                     news_entry.get("timestamp")
                 ]
+            )
+
+    def insert_news_bulk_df(
+        self,
+        news_entries: pd.DataFrame
+    ):
+        ## === If the new enteries are empty ===
+        if news_entries.empty:
+            return
+
+        with duckdb.connect(str(self.db_path)) as conn:
+
+            ## === Registering the Python Variable ===
+            conn.register("news_dataset", news_entries)
+
+            ## === Executing the insert query ===
+            conn.execute(
+                """
+                INSERT INTO news (
+                        content,
+                        sentiment_score,
+                        market_bias,
+                        news_impact,
+                        confidence,
+                        timestamp
+                    )
+                SELECT
+                    content,
+                    sentiment_score,
+                    market_bias,
+                    news_impact,
+                    confidence,
+                    timestamp
+                FROM news_dataset
+                """
             )
 
     def load_news(

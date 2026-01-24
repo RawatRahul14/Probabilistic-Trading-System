@@ -28,6 +28,10 @@ from .sentiment_utils import (
     extract_details
 )
 
+from .save_db import (
+    append_news
+)
+
 __all__ = [
     "load_yaml",
     "save_yaml",
