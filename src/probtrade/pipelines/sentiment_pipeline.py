@@ -57,7 +57,7 @@ class SentimentAggPipeline:
             self.logger.info("Computing the aggregated sentiment using cpp.")
             agg_sentiment: float = compute_news_pressure(data)
 
-            ## === Extravting Features ===
+            ## === Extracting Features ===
             details = extract_details(data = data)
 
             ## === Stop Time ===

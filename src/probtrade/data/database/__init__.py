@@ -6,7 +6,12 @@ from .save_news import (
     NewsDuckDB
 )
 
+from .news_daily import (
+    DailyNewsDuckDB
+)
+
 __all__ = [
     "AggDuckDB",
-    "NewsDuckDB"
+    "NewsDuckDB",
+    "DailyNewsDuckDB"
 ]

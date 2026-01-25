@@ -35,3 +35,19 @@ class NewsStat(TypedDict):
     news_impact: Literal["very_low", "low", "medium", "high", "very_high"]
     confidence: float
     timestamp: str
+
+# === Input schema for Daily News Data, used in (src/probtrade/data/database/news_daily.py) ===
+class DailyNewsRun(TypedDict):
+    date: str
+    unique_runs: int
+    news_count: int
+    sentiment_mean: float
+    sentiment_std: float
+    daily_bias_score: float
+    bullish_count: int
+    bearish_count: int
+    neutral_count: int
+    bullish_prob: float
+    bearish_prob: float
+    neutral_prob: float
+    sentiment_disagreement: float

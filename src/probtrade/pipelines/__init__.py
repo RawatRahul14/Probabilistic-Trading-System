@@ -10,8 +10,13 @@ from .sentiment_save_pipeline import (
     SentimentSavePipeline
 )
 
+from .daily_news_pipeline import (
+    DailyNewsPipeline
+)
+
 __all__ = [
     "AgenticAiPipeline",
     "SentimentAggPipeline",
-    "SentimentSavePipeline"
+    "SentimentSavePipeline",
+    "DailyNewsPipeline"
 ]

@@ -1,5 +1,9 @@
-from .complied import compute_news_pressure
+from .complied import (
+    compute_news_pressure,
+    aggregate_daily_news
+)
 
 __all__ = [
-    "compute_news_pressure"
+    "compute_news_pressure",
+    "aggregate_daily_news"
 ]
