@@ -108,3 +108,23 @@ class AggDuckDB:
         ## === Making connection to the file path ===
         with duckdb.connect(str(self.db_path)) as conn:
             return conn.execute(query).fetchdf()
+        
+    def load_agg_sentiment_date(
+            self,
+            date: str
+    ):
+        """
+        Loads aggregated sentiment score from the database.
+        """
+
+        ## === Query for the Data loading ===
+        query = f"""
+            SELECT *
+            FROM news_agg_sentiment
+            WHERE DATE(timestamp) = ?
+            ORDER BY timestamp DESC
+        """
+
+        ## === Making connection to the file path ===
+        with duckdb.connect(str(self.db_path)) as conn:
+            return conn.execute(query, [date]).fetchdf()

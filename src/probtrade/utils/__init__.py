@@ -5,7 +5,7 @@ from .common import (
 )
 
 from .get_date import (
-    GetDate
+    UpdateDateManager
 )
 
 from .time_utils import (
@@ -35,7 +35,7 @@ from .save_db import (
 __all__ = [
     "load_yaml",
     "save_yaml",
-    "GetDate",
+    "UpdateDateManager",
     "read_md",
     "append_sentiments_with_timestamp",
     "get_run_id",

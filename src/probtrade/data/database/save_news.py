@@ -183,3 +183,20 @@ class NewsDuckDB:
         ## === making connection and loading the dataset ===
         with duckdb.connect(str(self.db_path)) as conn:
             return conn.execute(query).fetchdf()
+
+    def load_by_date(
+            self,
+            date: str
+    ) -> pd.DataFrame:
+        """
+        Loads news by date
+        """
+        ## === Query for the data loading ===
+        query = f"""
+            SELECT *
+            FROM news
+            WHERE DATE(timestamp) = ?
+        """
+
+        with duckdb.connect(str(self.db_path)) as conn:
+            return conn.execute(query, [date]).fetchdf()

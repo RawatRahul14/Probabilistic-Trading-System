@@ -1,59 +1,67 @@
 # === Python Module ===
-from pathlib import Path
 from datetime import date, timedelta
 
 # === Utils ===
 from probtrade.utils import load_yaml, save_yaml
 
-# === Gets the date for the last update and also updates the date ===
-class GetDate:
+
+# === Handles reading & updating last historical data update date ===
+class UpdateDateManager:
     def __init__(
             self,
             file_name: str = "last_update.yaml",
             fallback_days: int = 1000
     ):
+        ## === Config file name ===
         self.file_name = file_name
+
+        ## === Fallback window if no date exists ===
         self.fallback_days = fallback_days
+
+        ## === Today's date ===
         self.today_date = date.today()
 
-    def read_date(self):
+    def read_start_date(self):
         """
-        Extracts the last update date
+        Returns the start date for historical data fetching.
         """
-        ## === Loading the yaml file ===
+        ## === Load the yaml config ===
         data = load_yaml(
             file_path = "config",
             file_name = self.file_name
         )
 
-        raw_date = data.get("date", ["None"])[0]
+        ## === Extract date if exists ===
+        raw_date = data.get("date")
 
-        ## === If date is None ===
-        if raw_date == "None":
-            result = self._adjust_date()
+        ## === If no date is present, fallback ===
+        if "NA" in raw_date:
+            return self._fallback_date()
 
-        else:
-            result = data["date"][0]
+        ## === Return stored last update date ===
+        return raw_date
 
-        ## === Updates the date in the yaml to last updated date ===
-        self._update_date(new_date = self.today_date)
-
-        return result
-
-    def _adjust_date(self):
+    def _fallback_date(self):
         """
-        If the date is not provided, it will adjust it to the last N days.
+        Returns fallback date (today - N days).
+        Used for first-time bootstrapping.
         """
-        ## === Today's date ===
+        ## === Calculate previous date ===
         prev_date = self.today_date - timedelta(self.fallback_days)
+
+        ## === Return in ISO format ===
         return prev_date.isoformat()
 
-    def _update_date(self, new_date):
+    def commit_update(self):
         """
-        Updates the date in the yaml file
+        Updates the yaml file with today's date.
+        IMPORTANT:
+        - Call this ONLY after ALL downloads succeed
         """
         save_yaml(
             file_path = "config",
             file_name = self.file_name,
-            data = {"date": [new_date.isoformat()]}
+            data = {
+                "date": date.today().isoformat()
+            }
         )

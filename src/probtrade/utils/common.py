@@ -6,7 +6,13 @@ from typing import List, Dict, Literal, Any
 # === Load YAML files ===
 def load_yaml(
         file_path: Literal["config"],
-        file_name: str
+        file_name: Literal[
+            "index.yaml",
+            "last_update.yaml",
+            "query.yaml",
+            "sector_map.yaml",
+            "tickers.yaml"
+        ]
 ) -> Dict[str, List[str]]:
     """
     Loads the yaml file's data.
