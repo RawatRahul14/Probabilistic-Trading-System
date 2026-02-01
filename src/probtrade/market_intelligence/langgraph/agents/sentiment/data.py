@@ -37,13 +37,16 @@ async def fetch_data(
         ## === Looping through the queries ===
         all_response = await fetch_multiple_queries(queries = state["queries"])
 
-        state["contents"] = all_response
+        ## === Opening the nested list ===
+        flat_repsonse = [item for sublist in all_response for item in sublist]
+
+        state["contents"] = flat_repsonse
 
         ## === Stop Time ===
         end_time = time.perf_counter()
         duration = end_time - start_time
 
-        logger.info(f"Finished the `fetch_data_node`, Duration = {duration:.2f}s, Articles = {len(all_response)}.")
+        logger.info(f"Finished the `fetch_data_node`, Duration = {duration:.2f}s, Articles = {len(flat_repsonse)}.")
 
     except Exception as e:
         logger.exception("Error occurred in `fetch_data_node`")

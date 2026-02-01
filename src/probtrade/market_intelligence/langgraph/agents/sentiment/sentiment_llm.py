@@ -28,7 +28,7 @@ async def get_sentiment(
         state: AgentState
 ) -> AgentState:
     """
-    Usnig OpenAI's ChatOpenAI, finding the sentiment of the fetched news articles.
+    Using OpenAI's ChatOpenAI, finding the sentiment of the fetched news articles.
     """
     ## === Start Time ===
     start_time = time.perf_counter()

@@ -42,7 +42,7 @@ class NewsDuckDB:
         with duckdb.connect(str(self.db_path)) as conn:
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS news (
-                    content JSON,
+                    content TEXT,
                     sentiment_score INTEGER,
                     market_bias TEXT,
                     news_impact TEXT,
