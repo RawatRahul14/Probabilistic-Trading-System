@@ -86,7 +86,7 @@ async def get_sentiment(
         ## === Creating async tasks ===
         tasks = [
             analyze_news(news)
-            for news in state.get("contents", [])
+            for news in state.get("norm_content", [])
         ]
 
         ## === Running tasks concurrently ===

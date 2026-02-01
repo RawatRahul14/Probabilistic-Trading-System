@@ -32,6 +32,11 @@ from .save_db import (
     append_news
 )
 
+from .dedup_utils import (
+    normalize_text,
+    get_content
+)
+
 __all__ = [
     "load_yaml",
     "save_yaml",
@@ -41,5 +46,7 @@ __all__ = [
     "get_run_id",
     "extract_details",
     "GetTime",
-    "GetQueries"
+    "GetQueries",
+    "normalize_text",
+    "get_content"
 ]

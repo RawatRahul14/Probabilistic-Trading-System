@@ -16,5 +16,8 @@ class AgentState(TypedDict):
     ## === Contents ===
     contents: List[str]
 
+    ## === Normalized Content ===
+    norm_content: List[str]
+
     ## === Sentiments ===
     sentiments: List[SentimentConfig]

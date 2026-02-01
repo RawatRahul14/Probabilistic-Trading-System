@@ -11,7 +11,8 @@ from .agents import (
     get_queries,
     fetch_data,
     get_sentiment,
-    save_node
+    save_node,
+    apply_deduplicate
 )
 
 # === Graph Workflow ===
@@ -42,7 +43,16 @@ def run_graph():
     )
 
     workflow.add_node(
-        "Node_3_get_sentiment",
+        "Node_3_Apply_deduplicate",
+        RunnableLambda(apply_deduplicate).with_config(
+            {
+                "run_async": True
+            }
+        )
+    )
+
+    workflow.add_node(
+        "Node_4_get_sentiment",
         RunnableLambda(get_sentiment).with_config(
             {
                 "run_async": True
@@ -51,7 +61,7 @@ def run_graph():
     )
 
     workflow.add_node(
-        "Node_4_save_node",
+        "Node_5_save_node",
         RunnableLambda(save_node).with_config(
             {
                 "run_async": True
@@ -69,15 +79,19 @@ def run_graph():
     )
 
     workflow.add_edge(
-        "Node_2_fetch_data", "Node_3_get_sentiment"
+        "Node_2_fetch_data", "Node_3_Apply_deduplicate"
     )
 
     workflow.add_edge(
-        "Node_3_get_sentiment", "Node_4_save_node"
+        "Node_3_Apply_deduplicate", "Node_4_get_sentiment"
     )
 
     workflow.add_edge(
-        "Node_4_save_node", END
+        "Node_4_get_sentiment", "Node_5_save_node"
+    )
+
+    workflow.add_edge(
+        "Node_5_save_node", END
     )
 
     return workflow.compile()
