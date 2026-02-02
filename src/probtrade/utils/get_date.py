@@ -10,7 +10,7 @@ class UpdateDateManager:
     def __init__(
             self,
             file_name: str = "last_update.yaml",
-            fallback_days: int = 1000
+            fallback_days: int = 30
     ):
         ## === Config file name ===
         self.file_name = file_name
