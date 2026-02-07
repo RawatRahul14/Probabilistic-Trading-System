@@ -37,6 +37,10 @@ from .dedup_utils import (
     get_content
 )
 
+from .hist_utils import (
+    normalise_ticker
+)
+
 __all__ = [
     "load_yaml",
     "save_yaml",
@@ -48,5 +52,6 @@ __all__ = [
     "GetTime",
     "GetQueries",
     "normalize_text",
-    "get_content"
+    "get_content",
+    "normalise_ticker"
 ]

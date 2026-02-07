@@ -10,8 +10,13 @@ from .news_daily import (
     DailyNewsDuckDB
 )
 
+from .save_hist import (
+    HistoricalDuckDB
+)
+
 __all__ = [
     "AggDuckDB",
     "NewsDuckDB",
-    "DailyNewsDuckDB"
+    "DailyNewsDuckDB",
+    "HistoricalDuckDB"
 ]

@@ -17,14 +17,16 @@ def get_logger(
             "SENTIMENT_AGGREGATION",
             "SAVING_SENTIMENT",
             "Main",
-            "DAILY_NEWS_AGG"
+            "DAILY_NEWS_AGG",
+            "HISTORICAL_DATA"
         ],
         log_file: Literal[
             "news_data.log",
             "main.log",
             "sentiment.log",
             "save_sentiment.log",
-            "daily_news_agg.py"
+            "daily_news_agg.log",
+            "historical_data.log"
         ],
         level: int = logging.INFO
 ) -> logging.Logger:

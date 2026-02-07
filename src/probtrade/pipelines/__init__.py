@@ -14,9 +14,14 @@ from .daily_news_pipeline import (
     DailyNewsPipeline
 )
 
+from .get_hist_pipeline import (
+    HistPipeline
+)
+
 __all__ = [
     "AgenticAiPipeline",
     "SentimentAggPipeline",
     "SentimentSavePipeline",
-    "DailyNewsPipeline"
+    "DailyNewsPipeline",
+    "HistPipeline"
 ]
