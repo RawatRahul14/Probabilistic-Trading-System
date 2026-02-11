@@ -1,0 +1,1177 @@
+2026-01-06 18:13:36 | INFO | NEWS_DATA | ==================================================================
+2026-01-06 18:13:36 | INFO | NEWS_DATA | >>>>>>>> 2026-01-06 <<<<<<<<
+2026-01-06 18:15:26 | INFO | NEWS_DATA | ==================================================================
+
+
+2026-01-06 18:30:02 | INFO | NEWS_DATA | ======================================================================
+2026-01-06 18:30:02 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-06 <<<<<<<<
+2026-01-06 18:30:02 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Finished the `get_queries_node`.
+2026-01-06 18:30:02 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-06 18:30:26 | INFO | NEWS_DATA | Finished the `fetch_data_node`.
+2026-01-06 18:30:26 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-06 18:30:42 | INFO | NEWS_DATA | Finished the `get_sentiment_node`.
+2026-01-06 18:30:42 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-06 18:30:42 | INFO | NEWS_DATA | Finished the `save_node_node`.
+2026-01-06 18:30:42 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-06 18:30:42 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-06 18:30:42 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-07 17:01:16 | INFO | NEWS_DATA | ======================================================================
+2026-01-07 17:01:16 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-07 <<<<<<<<
+2026-01-07 17:01:16 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Finished the `get_queries_node`.
+2026-01-07 17:01:16 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-07 17:01:47 | INFO | NEWS_DATA | Finished the `fetch_data_node`.
+2026-01-07 17:01:47 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-07 17:02:06 | INFO | NEWS_DATA | Finished the `get_sentiment_node`.
+2026-01-07 17:02:06 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-07 17:02:06 | INFO | NEWS_DATA | Finished the `save_node_node`.
+2026-01-07 17:02:06 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-07 17:02:06 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-07 17:02:06 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-07 17:36:09 | INFO | NEWS_DATA | ======================================================================
+2026-01-07 17:36:09 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-07 <<<<<<<<
+2026-01-07 17:36:09 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Finished the `get_queries_node`.
+2026-01-07 17:36:09 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-07 17:36:40 | INFO | NEWS_DATA | Finished the `fetch_data_node`.
+2026-01-07 17:36:40 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-07 17:37:07 | INFO | NEWS_DATA | Finished the `get_sentiment_node`.
+2026-01-07 17:37:07 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-07 17:37:07 | INFO | NEWS_DATA | Finished the `save_node_node`.
+2026-01-07 17:37:07 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-07 17:37:07 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-07 17:37:07 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-07 18:01:39 | INFO | NEWS_DATA | ======================================================================
+2026-01-07 18:01:39 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-07 <<<<<<<<
+2026-01-07 18:01:39 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-07 18:01:39 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-07 18:02:02 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 23.05s, Articles = 15.
+2026-01-07 18:02:02 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-07 18:02:25 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 22.32s, Items = 15.
+2026-01-07 18:02:25 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-07 18:02:25 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.00s.
+2026-01-07 18:02:25 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-07 18:02:25 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-07 18:02:25 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-08 11:29:20 | INFO | NEWS_DATA | ======================================================================
+2026-01-08 11:29:20 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 11:29:20 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-08 11:29:20 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-08 11:29:39 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 18.72s, Articles = 15.
+2026-01-08 11:29:39 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-08 11:30:02 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 23.11s, Items = 15.
+2026-01-08 11:30:02 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-08 11:30:02 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.00s.
+2026-01-08 11:30:02 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-08 11:30:02 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-08 11:30:02 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-08 11:43:17 | INFO | NEWS_DATA | ======================================================================
+2026-01-08 11:43:17 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 11:43:17 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-08 11:43:17 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-08 11:43:35 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 18.55s, Articles = 15.
+2026-01-08 11:43:35 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-08 11:43:52 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 16.98s, Items = 15.
+2026-01-08 11:43:52 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-08 11:43:52 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-08 11:43:52 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-08 11:43:52 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-08 11:43:52 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-08 11:50:10 | INFO | NEWS_DATA | ======================================================================
+2026-01-08 11:50:10 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 11:50:10 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-08 11:50:10 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-08 11:50:28 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 17.28s, Articles = 15.
+2026-01-08 11:50:28 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-08 11:50:46 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 18.48s, Items = 15.
+2026-01-08 11:50:46 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-08 11:50:46 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.00s.
+2026-01-08 11:50:46 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-08 11:50:46 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-08 11:50:46 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-08 13:49:19 | INFO | NEWS_DATA | ======================================================================
+2026-01-08 13:49:19 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 13:49:19 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-08 13:49:19 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-08 13:49:19 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-08 13:49:20 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-08 13:49:20 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-08 13:49:20 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-08 13:49:20 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-08 13:49:41 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 21.33s, Articles = 15.
+2026-01-08 13:49:41 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-08 13:50:06 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 24.95s, Items = 15.
+2026-01-08 13:50:06 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-08 13:50:06 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-08 13:50:06 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-08 13:50:06 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-08 13:50:06 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-08 13:52:02 | INFO | NEWS_DATA | ======================================================================
+2026-01-08 13:52:02 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 13:52:02 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-08 13:52:02 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-08 13:52:22 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 20.13s, Articles = 15.
+2026-01-08 13:52:22 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-08 13:52:39 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 16.75s, Items = 15.
+2026-01-08 13:52:39 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-08 13:52:39 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-08 13:52:39 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-08 13:52:39 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-08 13:52:39 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-09 09:19:33 | INFO | NEWS_DATA | ======================================================================
+2026-01-09 09:19:33 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 09:19:33 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-09 09:19:33 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-09 09:19:34 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-09 09:19:34 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-09 09:19:34 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-09 09:19:34 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-09 09:19:34 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-09 09:20:01 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 27.10s, Articles = 15.
+2026-01-09 09:20:01 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-09 09:20:23 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 22.16s, Items = 15.
+2026-01-09 09:20:23 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-09 09:20:23 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-09 09:20:23 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-09 09:20:23 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-09 09:20:23 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-09 11:38:02 | INFO | NEWS_DATA | ======================================================================
+2026-01-09 11:38:02 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 11:38:02 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-09 11:38:02 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-09 11:38:22 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 19.97s, Articles = 15.
+2026-01-09 11:38:22 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-09 11:38:42 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 20.32s, Items = 15.
+2026-01-09 11:38:42 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-09 11:38:42 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-09 11:38:42 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-09 11:38:42 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-09 11:38:42 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-09 12:38:55 | INFO | NEWS_DATA | ======================================================================
+2026-01-09 12:38:55 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 12:38:55 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-09 12:38:55 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-09 12:39:16 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 20.50s, Articles = 15.
+2026-01-09 12:39:16 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-09 12:39:35 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 19.61s, Items = 15.
+2026-01-09 12:39:35 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-09 12:39:35 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-09 12:39:35 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-09 12:39:35 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-09 12:39:35 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-10 10:47:28 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 10:47:28 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:47:28 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 10:47:28 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 10:47:28 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 10:47:28 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 10:47:28 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 10:47:28 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 10:47:28 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 29, in main
+    state = graph.invoke(
+            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3068, in invoke
+    for chunk in self.stream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2643, in stream
+    for _ in runner.tick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 167, in tick
+    run_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 656, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 333, in invoke
+    raise TypeError(
+TypeError: No synchronous function provided to "Node_2_fetch_data".
+Either initialize with a synchronous function or invoke via the async API (ainvoke, astream, etc.)
+During task with name 'Node_2_fetch_data' and id '7f6ac752-8d1b-855a-0f9a-df0b9f777aea'
+2026-01-10 10:54:27 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 10:54:27 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:54:27 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 10:54:27 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-10 10:54:30 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.06s, Articles = 5.
+2026-01-10 10:54:30 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-10 10:54:39 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 8.82s, Items = 5.
+2026-01-10 10:54:39 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-10 10:54:39 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-10 10:54:39 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-10 10:54:39 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-10 10:54:39 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-10 11:02:35 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 11:02:35 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:02:35 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 11:02:35 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 11:02:35 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 11:02:36 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 11:02:36 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 11:02:36 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 11:02:36 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-10 11:02:39 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.66s, Articles = 5.
+2026-01-10 11:02:39 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-10 11:02:46 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 6.56s, Items = 5.
+2026-01-10 11:02:46 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-10 11:02:46 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-10 11:02:46 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-10 11:02:46 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-10 11:02:46 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-10 11:12:32 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 11:12:32 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:12:32 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 11:12:32 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-10 11:12:36 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.67s, Articles = 5.
+2026-01-10 11:12:36 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-10 11:12:39 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.03s, Items = 5.
+2026-01-10 11:12:39 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-10 11:12:39 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-10 11:12:39 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-10 11:12:39 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-10 11:12:39 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-10 11:46:15 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 11:46:15 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:46:15 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 11:46:15 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-10 11:46:19 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.58s, Articles = 5.
+2026-01-10 11:46:19 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-10 11:46:23 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.95s, Items = 5.
+2026-01-10 11:46:23 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-10 11:46:23 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-10 11:46:23 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-10 11:46:23 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-10 11:46:23 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-10 19:11:46 | INFO | NEWS_DATA | ======================================================================
+2026-01-10 19:11:46 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 19:11:46 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-10 19:11:46 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-10 19:11:59 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 12.70s, Articles = 5.
+2026-01-10 19:11:59 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-10 19:12:03 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.99s, Items = 5.
+2026-01-10 19:12:03 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-10 19:12:03 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-10 19:12:03 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-10 19:12:03 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-10 19:12:03 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-11 11:21:55 | INFO | NEWS_DATA | ======================================================================
+2026-01-11 11:21:55 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-11 <<<<<<<<
+2026-01-11 11:21:55 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-11 11:21:55 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-11 11:21:55 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-11 11:21:56 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-11 11:21:56 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-11 11:21:56 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-11 11:21:56 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-11 11:22:01 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.47s, Articles = 5.
+2026-01-11 11:22:01 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-11 11:22:06 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.42s, Items = 5.
+2026-01-11 11:22:06 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-11 11:22:06 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-11 11:22:06 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-11 11:22:06 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-11 11:22:06 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-11 11:58:05 | INFO | NEWS_DATA | ======================================================================
+2026-01-11 11:58:05 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-11, run_id: e12a8415 <<<<<<<<
+2026-01-11 11:58:05 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-11 11:58:05 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-11 11:58:09 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.48s, Articles = 5.
+2026-01-11 11:58:09 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-11 11:58:12 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 2.99s, Items = 5.
+2026-01-11 11:58:12 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-11 11:58:12 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-11 11:58:12 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-11 11:58:12 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-11 11:58:12 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-11 13:30:50 | INFO | NEWS_DATA | ======================================================================
+2026-01-11 13:30:50 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-11, run_id: 043125ca <<<<<<<<
+2026-01-11 13:30:50 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-11 13:30:50 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-11 13:30:54 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.41s, Articles = 5.
+2026-01-11 13:30:54 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-11 13:30:58 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.67s, Items = 5.
+2026-01-11 13:30:58 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-11 13:30:58 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-11 13:30:58 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-11 13:30:58 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-11 13:30:58 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-11 13:32:49 | INFO | NEWS_DATA | ======================================================================
+2026-01-11 13:32:49 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-11, run_id: 20db3b7d <<<<<<<<
+2026-01-11 13:32:49 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-11 13:32:49 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-11 13:32:54 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.39s, Articles = 5.
+2026-01-11 13:32:54 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-11 13:32:57 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.13s, Items = 5.
+2026-01-11 13:32:57 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-11 13:32:57 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-11 13:32:57 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-11 13:32:57 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-11 13:32:57 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-11 13:41:48 | INFO | NEWS_DATA | ======================================================================
+2026-01-11 13:41:48 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-11, run_id: 56e60774 <<<<<<<<
+2026-01-11 13:41:48 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-11 13:41:48 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-11 13:41:52 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.30s, Articles = 5.
+2026-01-11 13:41:52 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-11 13:41:55 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.12s, Items = 5.
+2026-01-11 13:41:55 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-11 13:41:55 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-11 13:41:55 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-11 13:41:55 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-11 13:41:55 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-12 08:36:40 | INFO | NEWS_DATA | ======================================================================
+2026-01-12 08:36:40 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-12, run_id: 2b5020a7 <<<<<<<<
+2026-01-12 08:36:40 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-12 08:36:40 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-12 08:36:44 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.52s, Articles = 5.
+2026-01-12 08:36:44 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-12 08:36:47 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.01s, Items = 5.
+2026-01-12 08:36:47 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-12 08:36:47 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-12 08:36:47 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-12 08:36:47 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-12 08:36:47 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-12 09:18:05 | INFO | NEWS_DATA | ======================================================================
+2026-01-12 09:18:05 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-12, run_id: 9b1cf39f <<<<<<<<
+2026-01-12 09:18:05 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-12 09:18:05 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-12 09:18:09 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.13s, Articles = 5.
+2026-01-12 09:18:09 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-12 09:18:12 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.26s, Items = 5.
+2026-01-12 09:18:12 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-12 09:18:12 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-12 09:18:12 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-12 09:18:12 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-12 09:18:12 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-12 13:07:24 | INFO | NEWS_DATA | ======================================================================
+2026-01-12 13:07:24 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-12, run_id: eed28b47 <<<<<<<<
+2026-01-12 13:07:24 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-12 13:07:24 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-12 13:07:28 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.88s, Articles = 5.
+2026-01-12 13:07:28 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-12 13:07:31 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 2.68s, Items = 5.
+2026-01-12 13:07:31 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-12 13:07:31 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-12 13:07:31 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-12 13:07:31 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-12 13:07:31 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-12 14:45:22 | INFO | NEWS_DATA | ======================================================================
+2026-01-12 14:45:22 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-12, run_id: d8d0c481 <<<<<<<<
+2026-01-12 14:45:22 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-12 14:45:22 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-12 14:45:25 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.36s, Articles = 5.
+2026-01-12 14:45:25 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-12 14:45:28 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 2.68s, Items = 5.
+2026-01-12 14:45:28 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-12 14:45:28 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.00s.
+2026-01-12 14:45:28 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-12 14:45:28 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-12 14:45:28 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-13 09:00:47 | INFO | NEWS_DATA | ======================================================================
+2026-01-13 09:00:47 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-13, run_id: 2d973d00 <<<<<<<<
+2026-01-13 09:00:47 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-13 09:00:47 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-13 09:00:47 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-13 09:00:48 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-13 09:00:48 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-13 09:00:48 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-13 09:00:48 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-13 09:00:52 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.37s, Articles = 5.
+2026-01-13 09:00:52 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-13 09:00:55 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.37s, Items = 5.
+2026-01-13 09:00:55 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-13 09:00:55 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.05s.
+2026-01-13 09:00:55 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-13 09:00:55 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-13 09:00:55 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-13 09:39:17 | INFO | NEWS_DATA | ======================================================================
+2026-01-13 09:39:17 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-13, run_id: cf5819fe <<<<<<<<
+2026-01-13 09:39:17 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-13 09:39:17 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-13 09:39:17 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-13 09:39:18 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-13 09:39:18 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-13 09:39:18 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-13 09:39:18 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-13 09:39:25 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 7.35s, Articles = 5.
+2026-01-13 09:39:25 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-13 09:39:30 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.55s, Items = 5.
+2026-01-13 09:39:30 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-13 09:39:30 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-13 09:39:30 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-13 09:39:30 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-13 09:39:30 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-13 10:54:37 | INFO | NEWS_DATA | ======================================================================
+2026-01-13 10:54:37 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-13, run_id: ca83a578 <<<<<<<<
+2026-01-13 10:54:37 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-13 10:54:37 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-13 10:54:40 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.42s, Articles = 5.
+2026-01-13 10:54:40 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-13 10:54:43 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 2.70s, Items = 5.
+2026-01-13 10:54:43 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-13 10:54:43 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.01s.
+2026-01-13 10:54:43 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-13 10:54:43 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-13 10:54:43 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-13 13:32:42 | INFO | NEWS_DATA | ======================================================================
+2026-01-13 13:32:42 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-13, run_id: b79906c1 <<<<<<<<
+2026-01-13 13:32:42 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-13 13:32:42 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-13 13:32:47 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.27s, Articles = 5.
+2026-01-13 13:32:47 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-13 13:32:50 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.35s, Items = 5.
+2026-01-13 13:32:50 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-13 13:32:50 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.03s.
+2026-01-13 13:32:50 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-13 13:32:50 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-13 13:32:50 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-14 09:36:13 | INFO | NEWS_DATA | ======================================================================
+2026-01-14 09:36:13 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-14, run_id: 2ece6a3b <<<<<<<<
+2026-01-14 09:36:13 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-14 09:36:13 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-14 09:36:13 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-14 09:36:14 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-14 09:36:14 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-14 09:36:14 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-14 09:36:14 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-14 09:36:18 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 3.98s, Articles = 5.
+2026-01-14 09:36:18 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-14 09:36:21 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.67s, Items = 5.
+2026-01-14 09:36:21 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-14 09:36:21 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.07s.
+2026-01-14 09:36:21 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-14 09:36:21 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-14 09:36:21 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-14 10:38:25 | INFO | NEWS_DATA | ======================================================================
+2026-01-14 10:38:25 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-14, run_id: f4bfb17e <<<<<<<<
+2026-01-14 10:38:25 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-14 10:38:25 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-14 10:38:25 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-14 10:38:25 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-14 10:38:25 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-14 10:38:25 | ERROR | NEWS_DATA | Error occurred in `get_queries_node`
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\query.py", line 46, in get_queries
+    queries.append(data["queries"][q]["query"])
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-01-14 10:38:25 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-14 10:38:25 | ERROR | NEWS_DATA | Error occurred in `fetch_data_node`
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\data.py", line 38, in fetch_data
+    all_response = await fetch_multiple_queries(queries = state["queries"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'queries'
+2026-01-14 10:38:25 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\data.py", line 38, in fetch_data
+    all_response = await fetch_multiple_queries(queries = state["queries"])
+                                                          ~~~~~^^^^^^^^^^^
+KeyError: 'queries'
+During task with name 'Node_2_fetch_data' and id '10873a63-4ebc-118d-9892-ca659f1f4402'
+2026-01-14 10:38:54 | INFO | NEWS_DATA | ======================================================================
+2026-01-14 10:38:54 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-14, run_id: f4bfb17e <<<<<<<<
+2026-01-14 10:38:54 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-14 10:38:54 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-14 10:38:54 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-14 10:38:54 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-14 10:38:54 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\query.py", line 34, in get_queries
+    data = load_yaml(
+           ^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\common.py", line 40, in load_yaml
+    with open(path, "rb") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\query.yaml'
+During task with name 'Node_1_Get_Queries' and id '7c7e113e-9a85-c903-5b74-e6222dcde7f8'
+2026-01-14 10:39:00 | INFO | NEWS_DATA | ======================================================================
+2026-01-14 10:39:00 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-14, run_id: 469d02cb <<<<<<<<
+2026-01-14 10:39:00 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-14 10:39:00 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-14 10:39:13 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 12.36s, Articles = 11.
+2026-01-14 10:39:13 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-14 10:39:19 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.91s, Items = 11.
+2026-01-14 10:39:19 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-14 10:39:19 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.03s.
+2026-01-14 10:39:19 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-14 10:39:19 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-14 10:39:19 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-19 13:36:23 | INFO | NEWS_DATA | ======================================================================
+2026-01-19 13:36:23 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-19, run_id: 37721c11 <<<<<<<<
+2026-01-19 13:36:23 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-19 13:36:23 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-19 13:36:36 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 13.85s, Articles = 11.
+2026-01-19 13:36:36 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-19 13:36:43 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 6.59s, Items = 11.
+2026-01-19 13:36:43 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-19 13:36:43 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-19 13:36:43 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-19 13:36:43 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-19 13:36:43 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-20 14:37:04 | INFO | NEWS_DATA | ======================================================================
+2026-01-20 14:37:04 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-20, run_id: 26e3e20d <<<<<<<<
+2026-01-20 14:37:04 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-20 14:37:04 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-20 14:37:04 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-20 14:37:05 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-20 14:37:05 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-20 14:37:05 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.01s.
+2026-01-20 14:37:05 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-20 14:37:14 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 9.04s, Articles = 11.
+2026-01-20 14:37:14 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-20 14:37:19 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.73s, Items = 11.
+2026-01-20 14:37:19 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-20 14:37:19 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-20 14:37:19 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-20 14:37:19 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-20 14:37:19 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-21 13:44:34 | INFO | NEWS_DATA | ======================================================================
+2026-01-21 13:44:34 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-21, run_id: d037d51a <<<<<<<<
+2026-01-21 13:44:34 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.00s.
+2026-01-21 13:44:34 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-21 13:44:42 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 8.24s, Articles = 11.
+2026-01-21 13:44:42 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-21 13:44:48 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.62s, Items = 11.
+2026-01-21 13:44:48 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-21 13:44:48 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-21 13:44:48 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-21 13:44:48 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-21 13:44:48 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-23 11:46:41 | INFO | NEWS_DATA | ======================================================================
+2026-01-23 11:46:41 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-23, run_id: 7dac3b6d <<<<<<<<
+2026-01-23 11:46:41 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.09s.
+2026-01-23 11:46:41 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-23 11:46:46 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.72s, Articles = 8.
+2026-01-23 11:46:46 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-23 11:46:51 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.77s, Items = 8.
+2026-01-23 11:46:51 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-23 11:46:51 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.02s.
+2026-01-23 11:46:51 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-23 11:46:51 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-23 11:46:51 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-24 13:37:47 | INFO | NEWS_DATA | ======================================================================
+2026-01-24 13:37:47 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-24, run_id: 3210346c <<<<<<<<
+2026-01-24 13:37:47 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-24 13:37:47 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-24 13:37:47 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-24 13:37:47 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-24 13:37:47 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-24 13:37:48 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-01-24 13:37:48 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-24 13:37:54 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.23s, Articles = 8.
+2026-01-24 13:37:54 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-24 13:37:59 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.81s, Items = 8.
+2026-01-24 13:37:59 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-24 13:37:59 | ERROR | NEWS_DATA | Error occurred in `save_node_node`
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\save_data.py", line 37, in save_node
+    append_news(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 34, in append_news
+    news_db.insert_news_bulk_df(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_news.py", line 135, in insert_news_bulk_df
+    if news_entries.empty():
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not callable
+2026-01-24 13:37:59 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-24 13:37:59 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-24 13:37:59 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-24 13:38:55 | INFO | NEWS_DATA | ======================================================================
+2026-01-24 13:38:55 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-24, run_id: 7326b8af <<<<<<<<
+2026-01-24 13:38:55 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-24 13:38:55 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-24 13:38:55 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-24 13:38:55 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-24 13:38:55 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-24 13:38:56 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.09s.
+2026-01-24 13:38:56 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-24 13:39:01 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.07s, Articles = 8.
+2026-01-24 13:39:01 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-24 13:39:05 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.54s, Items = 8.
+2026-01-24 13:39:05 | INFO | NEWS_DATA | Initiated the `save_node_node`.
+2026-01-24 13:39:05 | INFO | NEWS_DATA | Finished the `save_node_node`, Duration = 0.05s.
+2026-01-24 13:39:05 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-24 13:39:05 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-24 13:39:05 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-27 09:00:12 | INFO | NEWS_DATA | ======================================================================
+2026-01-27 09:00:12 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-27, run_id: bead6e6e <<<<<<<<
+2026-01-27 09:00:12 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.23s.
+2026-01-27 09:00:12 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-27 09:00:21 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 9.09s, Articles = 7.
+2026-01-27 09:00:21 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-27 09:00:28 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 7.40s, Items = 7.
+2026-01-27 09:00:28 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-01-27 09:00:29 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.23s.
+2026-01-27 09:00:29 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-27 09:00:29 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-27 09:00:29 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-27 09:15:10 | INFO | NEWS_DATA | ======================================================================
+2026-01-27 09:15:10 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-27, run_id: d7d2638a <<<<<<<<
+2026-01-27 09:15:10 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.06s.
+2026-01-27 09:15:10 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-27 09:15:16 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.39s, Articles = 8.
+2026-01-27 09:15:16 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-27 09:15:21 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.22s, Items = 8.
+2026-01-27 09:15:21 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-01-27 09:15:22 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.10s.
+2026-01-27 09:15:22 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-27 09:15:22 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-27 09:15:22 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-27 09:30:04 | INFO | NEWS_DATA | ======================================================================
+2026-01-27 09:30:04 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-27, run_id: f0acec44 <<<<<<<<
+2026-01-27 09:30:04 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-01-27 09:30:04 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-27 09:30:09 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.14s, Articles = 8.
+2026-01-27 09:30:09 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-27 09:30:15 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.28s, Items = 8.
+2026-01-27 09:30:15 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-01-27 09:30:15 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-01-27 09:30:15 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-27 09:30:15 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-27 09:30:15 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-27 09:45:06 | INFO | NEWS_DATA | ======================================================================
+2026-01-27 09:45:06 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-27, run_id: c1875ce9 <<<<<<<<
+2026-01-27 09:45:06 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-01-27 09:45:06 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-27 09:45:13 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.32s, Articles = 8.
+2026-01-27 09:45:13 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-27 09:45:16 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 3.35s, Items = 8.
+2026-01-27 09:45:16 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-01-27 09:45:16 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.05s.
+2026-01-27 09:45:16 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-27 09:45:16 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-27 09:45:16 | INFO | NEWS_DATA | ======================================================================
+
+2026-01-27 20:34:41 | INFO | NEWS_DATA | ======================================================================
+2026-01-27 20:34:41 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-01-27, run_id: eaf9f67c <<<<<<<<
+2026-01-27 20:34:41 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-01-27 20:34:41 | INFO | NEWS_DATA | Initializing agentic graph
+2026-01-27 20:34:41 | INFO | NEWS_DATA | Invoking agentic graph
+2026-01-27 20:34:41 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-01-27 20:34:41 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-01-27 20:34:42 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.09s.
+2026-01-27 20:34:42 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-01-27 20:34:42 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 0.00s, Articles = 0.
+2026-01-27 20:34:42 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-01-27 20:34:43 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 1.22s, Items = 0.
+2026-01-27 20:34:43 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-01-27 20:34:43 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-01-27 20:34:43 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-01-27 20:34:43 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-01-27 20:34:43 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 11:04:46 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:04:46 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:04:46 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-02-01 11:04:46 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:04:52 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.07s, Articles = 24.
+2026-02-01 11:04:52 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:05:00 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 7.84s, Items = 24.
+2026-02-01 11:05:00 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:05:00 | ERROR | NEWS_DATA | Error occurred in `save_data_node`
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\save_data.py", line 37, in save_node
+    append_news(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 34, in append_news
+    news_db.insert_news_bulk_df(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_news.py", line 138, in insert_news_bulk_df
+    with duckdb.connect(str(self.db_path)) as conn:
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_news.py", line 144, in insert_news_bulk_df
+    conn.execute(
+_duckdb.ConversionException: Conversion Error: Malformed JSON at byte 0 of input: unexpected character.  Input: "Indian Masterminds Stories
+
+ TAGS  financial in..." when casting from source column content
+
+LINE 11:                     content,
+                             ^
+2026-02-01 11:06:54 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:06:54 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:06:54 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-02-01 11:06:54 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:06:59 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.17s, Articles = 24.
+2026-02-01 11:06:59 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:07:05 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 5.99s, Items = 24.
+2026-02-01 11:07:05 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:07:06 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.54s.
+2026-02-01 11:08:20 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:08:20 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 90918df9 <<<<<<<<
+2026-02-01 11:08:20 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-02-01 11:08:20 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:08:25 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 4.96s, Articles = 24.
+2026-02-01 11:08:25 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:08:31 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 6.29s, Items = 24.
+2026-02-01 11:08:31 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:08:31 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.05s.
+2026-02-01 11:08:31 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 11:08:31 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-02-01 11:08:31 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 11:39:15 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:39:15 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 10c93efb <<<<<<<<
+2026-02-01 11:39:15 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.06s.
+2026-02-01 11:39:15 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.10s, Articles = 24.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 0.87s, Items = 0.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 11:39:22 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-02-01 11:39:22 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 11:42:27 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:42:27 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 1c6d6028 <<<<<<<<
+2026-02-01 11:42:27 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-02-01 11:42:27 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:42:32 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.62s, Articles = 24.
+2026-02-01 11:42:32 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\sentiment\dedup.py", line 20, in apply_deduplicate
+    state["norm_content"].append(
+    ~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'norm_content'
+During task with name 'Node_3_Apply_deduplicate' and id '807c52b0-0041-76ef-8b5d-2c3e52f85a24'
+2026-02-01 11:43:51 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:43:51 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 71792d56 <<<<<<<<
+2026-02-01 11:43:51 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.06s.
+2026-02-01 11:43:51 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:43:56 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.24s, Articles = 24.
+2026-02-01 11:43:56 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:43:57 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 0.88s, Items = 0.
+2026-02-01 11:43:57 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:43:57 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-02-01 11:43:57 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 11:43:57 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-02-01 11:43:57 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 11:50:04 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:50:04 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 092927ac <<<<<<<<
+2026-02-01 11:50:04 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.07s.
+2026-02-01 11:50:04 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:50:09 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.09s, Articles = 24.
+2026-02-01 11:50:09 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-01 11:50:09 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.00s, Flattened Articals = 24.
+2026-02-01 11:50:09 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:50:10 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 0.91s, Items = 0.
+2026-02-01 11:50:10 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:50:10 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-02-01 11:50:10 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 11:50:10 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'sentiments']
+2026-02-01 11:50:10 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 11:51:29 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:51:29 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:51:30 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-02-01 11:51:30 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:51:35 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.09s, Articles = 24.
+2026-02-01 11:51:35 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-01 11:51:35 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.00s, Flattened Articals = 24.
+2026-02-01 11:51:35 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:51:36 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 0.89s, Items = 0.
+2026-02-01 11:51:36 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:51:36 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-02-01 11:59:25 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 11:59:25 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 9e32e5ac <<<<<<<<
+2026-02-01 11:59:25 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.06s.
+2026-02-01 11:59:25 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 11:59:30 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.10s, Articles = 24.
+2026-02-01 11:59:30 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-01 11:59:30 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.00s, Flattened Articals = 24.
+2026-02-01 11:59:30 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 11:59:37 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 6.50s, Items = 24.
+2026-02-01 11:59:37 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 11:59:37 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-02-01 11:59:37 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 11:59:37 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-01 11:59:37 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-01 12:02:31 | INFO | NEWS_DATA | ======================================================================
+2026-02-01 12:02:31 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-01, run_id: 42e2e886 <<<<<<<<
+2026-02-01 12:02:31 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-02-01 12:02:31 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-01 12:02:37 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.35s, Articles = 24.
+2026-02-01 12:02:37 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-01 12:02:37 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.00s, Flattened Articals = 24.
+2026-02-01 12:02:37 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-01 12:02:44 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 7.15s, Items = 24.
+2026-02-01 12:02:44 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-01 12:02:44 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-02-01 12:02:44 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-01 12:02:44 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-01 12:02:44 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-02 11:19:48 | INFO | NEWS_DATA | ======================================================================
+2026-02-02 11:19:48 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-02, run_id: 165baf83 <<<<<<<<
+2026-02-02 11:19:48 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.11s.
+2026-02-02 11:19:48 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-02 11:19:55 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.74s, Articles = 24.
+2026-02-02 11:19:55 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-02 11:19:55 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.05s, Before = 24, After = 24.
+2026-02-02 11:19:55 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-02 11:20:03 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 7.71s, Items = 24.
+2026-02-02 11:20:03 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-02 11:20:03 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.05s.
+2026-02-02 11:20:03 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-02 11:20:03 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-02 11:20:03 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-02 11:30:35 | INFO | NEWS_DATA | ======================================================================
+2026-02-02 11:30:35 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-02, run_id: 3ea57034 <<<<<<<<
+2026-02-02 11:30:35 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-02 11:30:35 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-02 11:30:35 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-02 11:30:36 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-02 11:30:36 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-02 11:30:36 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.06s.
+2026-02-02 11:30:36 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-02 11:30:41 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.08s, Articles = 24.
+2026-02-02 11:30:41 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-02 11:30:41 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.05s, Before = 24, After = 8.
+2026-02-02 11:30:41 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-02 11:30:46 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 4.99s, Items = 8.
+2026-02-02 11:30:46 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-02 11:30:46 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.06s.
+2026-02-02 11:30:46 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-02 11:30:46 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-02 11:30:46 | INFO | NEWS_DATA | ======================================================================
+
+2026-02-10 09:13:17 | INFO | NEWS_DATA | ======================================================================
+2026-02-10 09:13:17 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-10, run_id: 3b1465b2 <<<<<<<<
+2026-02-10 09:13:17 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.16s.
+2026-02-10 09:13:17 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-10 09:13:23 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.97s, Articles = 21.
+2026-02-10 09:13:24 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-10 09:13:24 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.04s, Before = 21, After = 21.
+2026-02-10 09:13:24 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-10 09:13:31 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 7.65s, Items = 21.
+2026-02-10 09:13:31 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-10 09:13:31 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-02-10 09:13:31 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-10 09:13:31 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-10 09:13:31 | INFO | NEWS_DATA | ======================================================================
+

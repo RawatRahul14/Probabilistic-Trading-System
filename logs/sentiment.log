@@ -1,0 +1,435 @@
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-08 11:43:52 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.001774100004695356.
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005223999905865639.
+2026-01-08 11:50:46 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-08 13:50:06 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0014623000170104206.
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-08 <<<<<<<<
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0009119999886024743.
+2026-01-08 13:52:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.000826600007712841.
+2026-01-09 09:20:23 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010797000140883029.
+2026-01-09 11:38:42 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005023000001074251.
+2026-01-09 12:39:35 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-10 10:52:15 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 10:52:15 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:52:15 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 10:52:15 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 10:52:15 | ERROR | SENTMENT_AGGREGATION | Fatal error while running Aggregated Sentiment Pipeline.
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\sentiment_pipeline.py", line 39, in main
+    for article in state["sentiments"]:
+                   ~~~~~^^^^^^^^^^^^^^
+TypeError: 'coroutine' object is not subscriptable
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0004947999987052754.
+2026-01-10 10:54:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005897000010008924.
+2026-01-10 11:02:46 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0008617999992566183.
+2026-01-10 11:12:39 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006444999962695874.
+2026-01-10 11:46:23 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010161999999809268.
+2026-01-10 19:12:03 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-11 <<<<<<<<
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0008702999999741223.
+2026-01-11 11:22:06 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-11, run_id: e12a8415 <<<<<<<<
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007123000000319735.
+2026-01-11 11:58:12 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-11, run_id: 043125ca <<<<<<<<
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-11 13:30:58 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-11 13:30:58 | ERROR | SENTMENT_AGGREGATION | Fatal error while running Aggregated Sentiment Pipeline.
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\sentiment_pipeline.py", line 61, in main
+    details = extract_details(data = data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\sentiment_utils.py", line 51, in extract_details
+    sentiment_scores = [d.sentiment_score for d in data]
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\sentiment_utils.py", line 51, in <listcomp>
+    sentiment_scores = [d.sentiment_score for d in data]
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'sentiment_score'
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-11, run_id: 20db3b7d <<<<<<<<
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.002290999999786436.
+2026-01-11 13:32:57 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-11, run_id: 56e60774 <<<<<<<<
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0008086999996521627.
+2026-01-11 13:41:55 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-12, run_id: 2b5020a7 <<<<<<<<
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0013513000012608245.
+2026-01-12 08:36:47 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-12, run_id: 9b1cf39f <<<<<<<<
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007005000006756745.
+2026-01-12 09:18:12 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-12, run_id: eed28b47 <<<<<<<<
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.000607599999057129.
+2026-01-12 13:07:31 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-12, run_id: d8d0c481 <<<<<<<<
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005835999909322709.
+2026-01-12 14:45:28 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-13, run_id: 2d973d00 <<<<<<<<
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010334000107832253.
+2026-01-13 09:00:55 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-13, run_id: cf5819fe <<<<<<<<
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010896000021602958.
+2026-01-13 09:39:30 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-13, run_id: ca83a578 <<<<<<<<
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006804000004194677.
+2026-01-13 10:54:43 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-13, run_id: b79906c1 <<<<<<<<
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.002273300022352487.
+2026-01-13 13:32:50 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-14, run_id: 2ece6a3b <<<<<<<<
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010162999969907105.
+2026-01-14 09:36:21 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | ======================================================================
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-14, run_id: 469d02cb <<<<<<<<
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0016829999804031104.
+2026-01-14 10:39:19 | INFO | SENTMENT_AGGREGATION | ======================================================================
+
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-19, run_id: 37721c11 <<<<<<<<
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005966999999600375.
+2026-01-19 13:36:43 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-20, run_id: 26e3e20d <<<<<<<<
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006329000025289133.
+2026-01-20 14:37:19 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-21, run_id: d037d51a <<<<<<<<
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0016857999871717766.
+2026-01-21 13:44:48 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-23, run_id: 7dac3b6d <<<<<<<<
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005964000001768.
+2026-01-23 11:46:51 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-24, run_id: 3210346c <<<<<<<<
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010181999969063327.
+2026-01-24 13:37:59 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-24, run_id: 7326b8af <<<<<<<<
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007525999972131103.
+2026-01-24 13:39:05 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-27, run_id: bead6e6e <<<<<<<<
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0026649999999790452.
+2026-01-27 09:00:29 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-27, run_id: d7d2638a <<<<<<<<
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0009981999974115752.
+2026-01-27 09:15:22 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-27, run_id: f0acec44 <<<<<<<<
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006936999998288229.
+2026-01-27 09:30:15 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-27, run_id: c1875ce9 <<<<<<<<
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006594000005861744.
+2026-01-27 09:45:16 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-01-27, run_id: eaf9f67c <<<<<<<<
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007712999940849841.
+2026-01-27 20:34:43 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 90918df9 <<<<<<<<
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007122000024537556.
+2026-02-01 11:08:31 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 10c93efb <<<<<<<<
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0004702000005636364.
+2026-02-01 11:39:22 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 71792d56 <<<<<<<<
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0004681999998865649.
+2026-02-01 11:43:57 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 092927ac <<<<<<<<
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0007193000055849552.
+2026-02-01 11:50:10 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 9e32e5ac <<<<<<<<
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006122999984654598.
+2026-02-01 11:59:37 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-01, run_id: 42e2e886 <<<<<<<<
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.000636199998552911.
+2026-02-01 12:02:44 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-02, run_id: 165baf83 <<<<<<<<
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.00103859999217093.
+2026-02-02 11:20:03 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-02, run_id: 3ea57034 <<<<<<<<
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0010497999901417643.
+2026-02-02 11:30:46 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-10, run_id: 3b1465b2 <<<<<<<<
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005647999932989478.
+2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+

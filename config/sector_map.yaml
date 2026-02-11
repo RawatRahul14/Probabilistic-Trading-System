@@ -1,0 +1,117 @@
+financial_services:
+  - AUBANK
+  - BAJAJFINSV
+  - BAJFINANCE
+  - BANKBARODA
+  - CANBK
+  - CHOLAFIN
+  - HDFC
+  - HDFCBANK
+  - HDFCLIFE
+  - ICICIBANK
+  - ICICIGI
+  - ICICIPRULI
+  - INDUSINDBK
+  - KOTAKBANK
+  - L&TFH
+  - SBILIFE
+  - SBIN
+
+information_technology:
+  - HCLTECH
+  - INFY
+  - LTIMINDTREE
+  - MINDTREE
+  - TCS
+  - TECHM
+  - WIPRO
+
+oil_gas_energy:
+  - BPCL
+  - GAIL
+  - IOC
+  - ONGC
+  - RELIANCE
+  - NTPC
+  - POWERGRID
+
+automobile:
+  - ASHOKLEY
+  - BAJAJ-AUTO
+  - BALKRISIND
+  - BHARATFORG
+  - BOSCHLTD
+  - EICHERMOT
+  - EXIDEIND
+  - HEROMOTOCO
+  - M&M
+  - MARUTI
+  - TATAMOTORS
+
+fmcg:
+  - BRITANNIA
+  - COLPAL
+  - HINDUNILVR
+  - ITC
+  - NESTLEIND
+  - TATACONSUM
+
+metals_mining:
+  - COALINDIA
+  - HINDALCO
+  - HINDZINC
+  - JINDALSTEL
+  - JSWSTEEL
+  - NATIONALUM
+  - NMDC
+  - TATASTEEL
+  - VEDL
+
+pharmaceuticals_healthcare:
+  - APOLLOHOSP
+  - BIOCON
+  - CIPLA
+  - DIVISLAB
+  - DRREDDY
+  - LUPIN
+  - SUNPHARMA
+
+telecommunication:
+  - BHARTIARTL
+
+cement:
+  - AMBUJACEM
+  - SHREECEM
+  - ULTRACEMCO
+
+chemicals:
+  - PIIND
+  - PIDILITIND
+  - SRF
+  - UPL
+
+capital_goods_industrials:
+  - BEL
+  - CONCOR
+  - SIEMENS
+
+consumer_durables:
+  - TITAN
+  - BATAINDIA
+
+media_entertainment:
+  - PVR
+  - ZEEL
+
+real_estate:
+  - DLF
+
+power:
+  - ADANIPOWER
+
+diversified:
+  - ADANIENT
+  - ADANIPORTS
+  - ASIANPAINT
+  - BERGEPAINT
+  - GRASIM

@@ -1,0 +1,246 @@
+2026-01-09 12:39:35 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-09 12:39:35 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-09 <<<<<<<<
+2026-01-09 12:39:35 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-09 12:39:36 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.3506853000001229.
+2026-01-09 12:39:36 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 10:52:15 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 10:52:15 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:52:15 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 10:52:16 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 1.4297711999970488.
+2026-01-10 10:52:16 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 10:54:39 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 10:54:39 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 10:54:39 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 10:54:39 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.33492649999971036.
+2026-01-10 10:54:39 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 11:02:46 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 11:02:46 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:02:46 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:02:46 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.3220270000019809.
+2026-01-10 11:02:46 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 11:12:39 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 11:12:39 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:12:39 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:12:39 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.35128850000182865.
+2026-01-10 11:12:39 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 11:46:23 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 11:46:23 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 11:46:23 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 11:46:23 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.3387384000016027.
+2026-01-10 11:46:23 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-10 19:12:03 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-10 19:12:03 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-10 <<<<<<<<
+2026-01-10 19:12:03 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-10 19:12:14 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 10.970188199999996.
+2026-01-10 19:12:14 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-11 11:22:06 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-11 11:22:06 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-11 <<<<<<<<
+2026-01-11 11:22:06 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 11:22:07 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.8600434999999607.
+2026-01-11 11:22:07 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-11 11:58:12 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-11 11:58:12 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-11, run_id: e12a8415 <<<<<<<<
+2026-01-11 11:58:12 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 11:58:13 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.4648545000000013.
+2026-01-11 11:58:13 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-11 13:32:57 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-11 13:32:57 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-11, run_id: 20db3b7d <<<<<<<<
+2026-01-11 13:32:57 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 13:32:58 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.8596028000001752.
+2026-01-11 13:32:58 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-11 13:41:55 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-11 13:41:55 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-11, run_id: 56e60774 <<<<<<<<
+2026-01-11 13:41:55 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-11 13:41:56 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.4607566999993651.
+2026-01-11 13:41:56 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-12 08:36:47 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-12 08:36:47 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-12, run_id: 2b5020a7 <<<<<<<<
+2026-01-12 08:36:47 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 08:36:52 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 4.51666159999877.
+2026-01-12 08:36:52 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-12 09:18:12 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-12 09:18:12 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-12, run_id: 9b1cf39f <<<<<<<<
+2026-01-12 09:18:12 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 09:18:13 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.37312399999791523.
+2026-01-12 09:18:13 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-12 13:07:31 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-12 13:07:31 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-12, run_id: eed28b47 <<<<<<<<
+2026-01-12 13:07:31 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 13:07:31 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.3192860999988625.
+2026-01-12 13:07:31 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-12 14:45:28 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-12 14:45:28 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-12, run_id: d8d0c481 <<<<<<<<
+2026-01-12 14:45:28 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-12 14:45:28 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.2972571000136668.
+2026-01-12 14:45:28 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-13 09:00:55 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-13 09:00:55 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-13, run_id: 2d973d00 <<<<<<<<
+2026-01-13 09:00:55 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 09:01:03 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 7.19600569998147.
+2026-01-13 09:01:03 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-13 09:39:30 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-13 09:39:30 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-13, run_id: cf5819fe <<<<<<<<
+2026-01-13 09:39:30 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 09:39:30 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.6222535999841057.
+2026-01-13 09:39:30 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-13 10:54:43 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-13 10:54:43 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-13, run_id: ca83a578 <<<<<<<<
+2026-01-13 10:54:43 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 10:54:43 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.36828749999403954.
+2026-01-13 10:54:43 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-13 13:32:50 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-13 13:32:50 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-13, run_id: b79906c1 <<<<<<<<
+2026-01-13 13:32:50 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-13 13:32:51 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.8620363000081852.
+2026-01-13 13:32:51 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-14 09:36:21 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-14 09:36:21 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-14, run_id: 2ece6a3b <<<<<<<<
+2026-01-14 09:36:21 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-14 09:36:22 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.8092141000088304.
+2026-01-14 09:36:22 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-14 10:39:19 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-14 10:39:19 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-14, run_id: 469d02cb <<<<<<<<
+2026-01-14 10:39:19 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-14 10:39:19 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.6391832000226714.
+2026-01-14 10:39:19 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-19 13:36:43 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-19 13:36:43 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-19, run_id: 37721c11 <<<<<<<<
+2026-01-19 13:36:43 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-19 13:37:05 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 21.613736000000017.
+2026-01-19 13:37:05 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-20 14:37:19 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-20 14:37:19 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-20, run_id: 26e3e20d <<<<<<<<
+2026-01-20 14:37:19 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-20 14:37:25 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 5.171656099992106.
+2026-01-20 14:37:25 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-21 13:44:48 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-21 13:44:48 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-21, run_id: d037d51a <<<<<<<<
+2026-01-21 13:44:48 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-21 13:44:49 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.5692818000097759.
+2026-01-21 13:44:49 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-23 11:46:51 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-23 11:46:51 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-23, run_id: 7dac3b6d <<<<<<<<
+2026-01-23 11:46:51 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-23 11:46:56 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 5.0832575000004.
+2026-01-23 11:46:56 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-24 13:37:59 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-24 13:37:59 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-24, run_id: 3210346c <<<<<<<<
+2026-01-24 13:37:59 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-24 13:37:59 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.04669879999710247.
+2026-01-24 13:37:59 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-24 13:39:05 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-24 13:39:05 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-24, run_id: 7326b8af <<<<<<<<
+2026-01-24 13:39:05 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-24 13:39:05 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.04454260000784416.
+2026-01-24 13:39:05 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-27 09:00:29 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-27 09:00:29 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-27, run_id: bead6e6e <<<<<<<<
+2026-01-27 09:00:29 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:00:29 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.07683990000077756.
+2026-01-27 09:00:29 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-27 09:15:22 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-27 09:15:22 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-27, run_id: d7d2638a <<<<<<<<
+2026-01-27 09:15:22 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:15:22 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.09203880000131903.
+2026-01-27 09:15:22 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-27 09:30:15 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-27 09:30:15 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-27, run_id: f0acec44 <<<<<<<<
+2026-01-27 09:30:15 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:30:15 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.037822799997229595.
+2026-01-27 09:30:15 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-27 09:45:16 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-27 09:45:16 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-27, run_id: c1875ce9 <<<<<<<<
+2026-01-27 09:45:16 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 09:45:16 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.039164900001196656.
+2026-01-27 09:45:16 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-01-27 20:34:43 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-01-27 20:34:43 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-01-27, run_id: eaf9f67c <<<<<<<<
+2026-01-27 20:34:43 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-01-27 20:34:43 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.08515060000354424.
+2026-01-27 20:34:43 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 11:08:31 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 11:08:31 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 90918df9 <<<<<<<<
+2026-02-01 11:08:31 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:08:31 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.04682930000126362.
+2026-02-01 11:08:31 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 11:39:22 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 11:39:22 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 10c93efb <<<<<<<<
+2026-02-01 11:39:22 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:39:22 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.040224900003522635.
+2026-02-01 11:39:22 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 11:43:57 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 11:43:57 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 71792d56 <<<<<<<<
+2026-02-01 11:43:57 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:43:57 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.04017580000072485.
+2026-02-01 11:43:57 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 11:50:10 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 11:50:10 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 092927ac <<<<<<<<
+2026-02-01 11:50:10 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:50:10 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.038906599998881575.
+2026-02-01 11:50:10 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 11:59:37 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 11:59:37 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 9e32e5ac <<<<<<<<
+2026-02-01 11:59:37 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 11:59:37 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.0378259999997681.
+2026-02-01 11:59:37 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-01 12:02:44 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-01 12:02:44 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-01, run_id: 42e2e886 <<<<<<<<
+2026-02-01 12:02:44 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-01 12:02:44 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.03978790000110166.
+2026-02-01 12:02:44 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-02 11:20:03 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-02 11:20:03 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-02, run_id: 165baf83 <<<<<<<<
+2026-02-02 11:20:03 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-02 11:20:03 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.04253050000988878.
+2026-02-02 11:20:03 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-02 11:30:46 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-02 11:30:46 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-02, run_id: 3ea57034 <<<<<<<<
+2026-02-02 11:30:46 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-02 11:30:46 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.05287129999487661.
+2026-02-02 11:30:46 | INFO | SAVING_SENTIMENT | ======================================================================
+
+2026-02-10 09:13:31 | INFO | SAVING_SENTIMENT | ======================================================================
+2026-02-10 09:13:31 | INFO | SAVING_SENTIMENT | >>>>>>>> DATE: 2026-02-10, run_id: 3b1465b2 <<<<<<<<
+2026-02-10 09:13:31 | INFO | SAVING_SENTIMENT | >>>>>>> Starting Saving Sentiment Aggregation Pipeline <<<<<<<
+2026-02-10 09:13:31 | INFO | SAVING_SENTIMENT | Finished saving the aggregated sentiment in database, Duration: 0.03694950003409758.
+2026-02-10 09:13:31 | INFO | SAVING_SENTIMENT | ======================================================================
+

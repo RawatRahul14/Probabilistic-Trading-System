@@ -56,7 +56,6 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -208,10 +207,13 @@ __marimo__/
 
 # ======
 colab/*
-config/*
+config/query.yaml
 data/*
 db/*
 notebooks/*
-logs/*
 strategy/*
 news/*
+src/probtrade/execution/*
+src/probtrade/portfolio/*
+src/probtrade/probability/*
+src/probtrade/risk/*

@@ -1,0 +1,12 @@
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | ======================================================================
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | >>>>>>>> DATE: 2026-01-24 <<<<<<<<
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Loading the Data from the Database
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Successfully loaded the Data from the Database.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Exctracting required columns and applying the aggregation.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Successfully applied the aggregation.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Saving the data into the table.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Successfully saved the data into the table.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | Finished Aggregating daily news, Duration: 0.06345379998674616.
+2026-01-25 13:11:35 | INFO | DAILY_NEWS_AGG | ======================================================================
+
