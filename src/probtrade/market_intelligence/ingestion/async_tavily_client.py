@@ -1,6 +1,6 @@
 # === Python Modules ===
 import os
-from typing import List
+from typing import List, Literal
 import asyncio
 from tavily import AsyncTavilyClient
 from dotenv import load_dotenv
@@ -17,16 +17,18 @@ tavily = AsyncTavilyClient(
 
 # === Async Tavily function ===
 async def fetch_data_tavily(
-    query: str
+    query: str,
+    topic: str,
+    max_results: int
 ) -> List[str]:
     """
     Fetches data from Tavily asynchronously for a single query.
     """
     response = await tavily.search(
         query = query,
-        topic = "news",
+        topic = topic,
         time_range = "day",
-        max_results = 3,
+        max_results = max_results,
         include_raw_content = False,
         search_depth = "advanced",
         timeout = 10
@@ -43,7 +45,9 @@ async def fetch_data_tavily(
 # === Fetching Multiple queries at a time ===
 async def fetch_multiple_queries(
     queries: List[str],
-    concurrency: int = 5
+    concurrency: int = 5,
+    max_results: int = 3,
+    topic: Literal["news", "finance", "general"] = "news"
 ) -> List[List[str]]:
     """
     Fetches Tavily data for multiple queries concurrently.
@@ -55,7 +59,11 @@ async def fetch_multiple_queries(
     async def safe_fetch(q):
         async with semaphore:
             try:
-                return await fetch_data_tavily(q)
+                return await fetch_data_tavily(
+                    query = q,
+                    max_results = max_results,
+                    topic = topic
+                )
             except Exception as e:
                 return []
 

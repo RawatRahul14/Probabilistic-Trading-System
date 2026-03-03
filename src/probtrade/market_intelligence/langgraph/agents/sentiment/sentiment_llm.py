@@ -11,8 +11,8 @@ from probtrade.utils import read_md
 from probtrade.market_intelligence.schemas import SentimentSchema
 from probtrade.market_intelligence.langgraph.config.config import SentimentConfig
 
-# === AgentState ===
-from probtrade.market_intelligence.langgraph.state import AgentState
+# === NewsState ===
+from probtrade.market_intelligence.langgraph.state import NewsState
 
 # === Logger ===
 from probtrade import get_logger
@@ -25,8 +25,8 @@ logger = get_logger(
 
 # === Function to get the sentiment scores of the fetched news data ===
 async def get_sentiment(
-        state: AgentState
-) -> AgentState:
+        state: NewsState
+) -> NewsState:
     """
     Using OpenAI's ChatOpenAI, finding the sentiment of the fetched news articles.
     """

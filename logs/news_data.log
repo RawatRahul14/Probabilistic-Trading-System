@@ -1175,3 +1175,163 @@ During task with name 'Node_3_Apply_deduplicate' and id '807c52b0-0041-76ef-8b5d
 2026-02-10 09:13:31 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
 2026-02-10 09:13:31 | INFO | NEWS_DATA | ======================================================================
 
+2026-02-13 09:34:14 | INFO | NEWS_DATA | ======================================================================
+2026-02-13 09:34:14 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-02-13, run_id: 5ed5fb8a <<<<<<<<
+2026-02-13 09:34:14 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Initializing agentic graph
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Invoking agentic graph
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.26s.
+2026-02-13 09:34:14 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-02-13 09:34:23 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 9.43s, Articles = 24.
+2026-02-13 09:34:24 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-02-13 09:34:24 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.12s, Before = 24, After = 24.
+2026-02-13 09:34:24 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-02-13 09:34:33 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 9.33s, Items = 24.
+2026-02-13 09:34:33 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-02-13 09:34:33 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.14s.
+2026-02-13 09:34:33 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-02-13 09:34:33 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments']
+2026-02-13 09:34:33 | INFO | NEWS_DATA | ======================================================================
+
+2026-03-03 11:40:40 | INFO | NEWS_DATA | ======================================================================
+2026-03-03 11:40:40 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-03, run_id: 3709dfb7 <<<<<<<<
+2026-03-03 11:40:40 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-03-03 11:40:40 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-03 11:40:47 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.67s, Articles = 24.
+2026-03-03 11:40:47 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'queries': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:43:37 | INFO | NEWS_DATA | ======================================================================
+2026-03-03 11:43:37 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-03, run_id: a756582c <<<<<<<<
+2026-03-03 11:43:37 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-03-03 11:43:37 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-03 11:43:43 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.37s, Articles = 24.
+2026-03-03 11:43:43 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'vix_query': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:44:10 | INFO | NEWS_DATA | ======================================================================
+2026-03-03 11:44:10 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-03, run_id: 58b735e9 <<<<<<<<
+2026-03-03 11:44:10 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-03-03 11:44:10 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-03 11:44:16 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.49s, Articles = 24.
+2026-03-03 11:44:16 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-03 11:44:16 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.04s, Before = 24, After = 24.
+2026-03-03 11:44:16 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'contents': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:46:43 | INFO | NEWS_DATA | ======================================================================
+2026-03-03 11:46:43 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-03, run_id: acc84058 <<<<<<<<
+2026-03-03 11:46:43 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.05s.
+2026-03-03 11:46:43 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-03 11:46:49 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 5.56s, Articles = 24.
+2026-03-03 11:46:49 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-03 11:46:49 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.03s, Before = 24, After = 24.
+2026-03-03 11:46:49 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'vix_fetched': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 12:41:22 | INFO | NEWS_DATA | ======================================================================
+2026-03-03 12:41:22 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-03, run_id: 4bf2ed32 <<<<<<<<
+2026-03-03 12:41:22 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.08s.
+2026-03-03 12:41:22 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-03 12:41:28 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.19s, Articles = 24.
+2026-03-03 12:41:28 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-03 12:41:28 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.03s, Before = 24, After = 24.
+2026-03-03 12:41:28 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-03-03 12:41:37 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 8.31s, Items = 24.
+2026-03-03 12:41:37 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-03-03 12:41:37 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-03-03 12:41:37 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-03-03 12:41:37 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments', 'vix_query', 'vix_fetched', 'india_vix']
+2026-03-03 12:41:37 | INFO | NEWS_DATA | ======================================================================
+

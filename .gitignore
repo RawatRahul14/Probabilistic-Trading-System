@@ -208,6 +208,7 @@ __marimo__/
 # ======
 colab/*
 config/query.yaml
+config/vix_query.yaml
 data/*
 db/*
 notebooks/*
@@ -217,3 +218,5 @@ src/probtrade/execution/*
 src/probtrade/portfolio/*
 src/probtrade/probability/*
 src/probtrade/risk/*
+src/probtrade/broker/*
+prompts/*

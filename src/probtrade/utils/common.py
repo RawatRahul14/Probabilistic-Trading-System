@@ -11,7 +11,8 @@ def load_yaml(
             "last_update.yaml",
             "query.yaml",
             "sector_map.yaml",
-            "tickers.yaml"
+            "tickers.yaml",
+            "vix_query.yaml"
         ]
 ) -> Dict[str, List[str]]:
     """

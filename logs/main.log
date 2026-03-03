@@ -610,3 +610,123 @@ During task with name 'Node_3_Apply_deduplicate' and id '807c52b0-0041-76ef-8b5d
 2026-02-10 09:13:31 | INFO | Main | Completed the 3rd pipeline: `SentimentSavePipeline`.
 2026-02-10 09:13:31 | INFO | Main | ======================================================================
 
+2026-02-13 09:34:14 | INFO | Main | ======================================================================
+2026-02-13 09:34:14 | INFO | Main | >>>>>>>> 2026-02-13, run_id: 5ed5fb8a <<<<<<<<
+2026-02-13 09:34:14 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-02-13 09:34:33 | INFO | Main | Completed the 1st pipeline: `AgenticAiPipeline`.
+2026-02-13 09:34:33 | INFO | Main | Started the 2nd pipeline: `SentimentAggPipeline`.
+2026-02-13 09:34:33 | INFO | Main | Completed the 2nd pipeline: `SentimentAggPipeline`.
+2026-02-13 09:34:33 | INFO | Main | Started the 3rd pipeline: `SentimentSavePipeline`.
+2026-02-13 09:34:33 | INFO | Main | Completed the 3rd pipeline: `SentimentSavePipeline`.
+2026-02-13 09:34:33 | INFO | Main | ======================================================================
+
+2026-03-03 11:40:40 | INFO | Main | ======================================================================
+2026-03-03 11:40:40 | INFO | Main | >>>>>>>> 2026-03-03, run_id: 3709dfb7 <<<<<<<<
+2026-03-03 11:40:40 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 11:40:47 | ERROR | Main | Fatal error in running the main.py file.
+Traceback (most recent call last):
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\main.py", line 36, in main
+    state = await AgenticAiPipeline(run_id = run_id).main()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'queries': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:43:37 | INFO | Main | ======================================================================
+2026-03-03 11:43:37 | INFO | Main | >>>>>>>> 2026-03-03, run_id: a756582c <<<<<<<<
+2026-03-03 11:43:37 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 11:43:43 | ERROR | Main | Fatal error in running the main.py file.
+Traceback (most recent call last):
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\main.py", line 36, in main
+    state = await AgenticAiPipeline(run_id = run_id).main()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'vix_query': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:44:10 | INFO | Main | ======================================================================
+2026-03-03 11:44:10 | INFO | Main | >>>>>>>> 2026-03-03, run_id: 58b735e9 <<<<<<<<
+2026-03-03 11:44:10 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 11:44:16 | ERROR | Main | Fatal error in running the main.py file.
+Traceback (most recent call last):
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\main.py", line 36, in main
+    state = await AgenticAiPipeline(run_id = run_id).main()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'contents': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 11:46:43 | INFO | Main | ======================================================================
+2026-03-03 11:46:43 | INFO | Main | >>>>>>>> 2026-03-03, run_id: acc84058 <<<<<<<<
+2026-03-03 11:46:43 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 11:46:49 | ERROR | Main | Fatal error in running the main.py file.
+Traceback (most recent call last):
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\main.py", line 36, in main
+    state = await AgenticAiPipeline(run_id = run_id).main()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2986, in astream
+    loop.after_tick()
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_loop.py", line 542, in after_tick
+    self.updated_channels = apply_writes(
+                            ^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_algo.py", line 296, in apply_writes
+    if channels[chan].update(vals) and next_version is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\channels\last_value.py", line 64, in update
+    raise InvalidUpdateError(msg)
+langgraph.errors.InvalidUpdateError: At key 'vix_fetched': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2026-03-03 12:41:22 | INFO | Main | ======================================================================
+2026-03-03 12:41:22 | INFO | Main | >>>>>>>> 2026-03-03, run_id: 4bf2ed32 <<<<<<<<
+2026-03-03 12:41:22 | INFO | Main | Started the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 12:41:37 | INFO | Main | Completed the 1st pipeline: `AgenticAiPipeline`.
+2026-03-03 12:41:37 | INFO | Main | Started the 2nd pipeline: `SentimentAggPipeline`.
+2026-03-03 12:41:37 | INFO | Main | Completed the 2nd pipeline: `SentimentAggPipeline`.
+2026-03-03 12:41:37 | INFO | Main | Started the 3rd pipeline: `SentimentSavePipeline`.
+2026-03-03 12:41:37 | INFO | Main | Completed the 3rd pipeline: `SentimentSavePipeline`.
+2026-03-03 12:41:37 | INFO | Main | ======================================================================
+

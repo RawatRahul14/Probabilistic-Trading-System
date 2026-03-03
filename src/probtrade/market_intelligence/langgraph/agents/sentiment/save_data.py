@@ -7,8 +7,8 @@ from probtrade.utils import (
     append_news
 )
 
-# === AgentState ===
-from probtrade.market_intelligence.langgraph.state import AgentState
+# === NewsState ===
+from probtrade.market_intelligence.langgraph.state import NewsState
 
 # === Logger ===
 from probtrade import get_logger
@@ -21,8 +21,8 @@ logger = get_logger(
 
 # === Node to save the data to a json file ===
 async def save_node(
-        state: AgentState
-) -> AgentState:
+        state: NewsState
+) -> NewsState:
     """
     Saves the sentiment data in a json file 
     """

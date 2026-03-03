@@ -433,3 +433,21 @@ AttributeError: 'dict' object has no attribute 'sentiment_score'
 2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005647999932989478.
 2026-02-10 09:13:31 | INFO | SENTIMENT_AGGREGATION | ======================================================================
 
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-02-13, run_id: 5ed5fb8a <<<<<<<<
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0017287000082433224.
+2026-02-13 09:34:33 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-03-03, run_id: 4bf2ed32 <<<<<<<<
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006400000129360706.
+2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+

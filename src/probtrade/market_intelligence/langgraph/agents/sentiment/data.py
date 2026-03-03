@@ -5,8 +5,8 @@ from typing import List
 # === Tavily Search Agent ===
 from probtrade.market_intelligence import fetch_data_tavily, fetch_multiple_queries
 
-# === Agentstate ===
-from probtrade.market_intelligence.langgraph.state import AgentState
+# === NewsState ===
+from probtrade.market_intelligence.langgraph.state import NewsState
 
 # === Logger ===
 from probtrade import get_logger
@@ -19,8 +19,8 @@ logger = get_logger(
 
 # === Fetch Data ===
 async def fetch_data(
-        state: AgentState
-) -> AgentState:
+        state: NewsState
+) -> NewsState:
     """
     Fetches data using the Tavily search client.
     """

@@ -1,0 +1,63 @@
+2026-02-12 11:27:49 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:27:49 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007068999984767288.
+2026-02-12 11:32:25 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:32:25 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0006567999953404069.
+2026-02-12 11:32:55 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:33:34 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:33:34 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007320000004256144.
+2026-02-12 11:33:38 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:34:59 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:34:59 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0013463999930536374.
+2026-02-12 11:35:03 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:36:34 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:36:34 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.000694699992891401.
+2026-02-12 11:36:36 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:39:33 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:39:33 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007255999953486025.
+2026-02-12 11:39:34 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:56:10 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:56:10 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007156000065151602.
+2026-02-12 11:56:10 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 11:57:36 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 11:57:36 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007199999963631853.
+2026-02-12 11:57:37 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 12:01:05 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 12:01:05 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0008224000048357993.
+2026-02-12 12:01:05 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 12:02:36 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 12:02:36 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0006816999957663938.
+2026-02-12 12:02:36 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 12:03:38 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 12:03:38 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0007024999940767884.
+2026-02-12 12:03:38 | INFO | VIX | Starting the VIX fetching from the web.
+2026-02-12 12:04:49 | INFO | VIX | Starting the VIX query ingestion.
+2026-02-12 12:04:49 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.000744799996027723.
+2026-02-12 12:04:49 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 10:59:39 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 10:59:39 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0012894000101368874.
+2026-03-03 10:59:54 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 10:59:54 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0008313999860547483.
+2026-03-03 11:00:01 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:23:30 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 11:23:30 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0008179000287782401.
+2026-03-03 11:23:31 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:40:40 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 11:40:40 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005613999965135008.
+2026-03-03 11:40:40 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:40:46 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.918084400007501
+2026-03-03 11:43:37 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 11:43:37 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005718000174965709.
+2026-03-03 11:43:37 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:43:43 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.489818900008686
+2026-03-03 11:44:10 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 11:44:10 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005544000014197081.
+2026-03-03 11:44:10 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:44:16 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.49999859998934
+2026-03-03 11:46:43 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 11:46:43 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005437000072561204.
+2026-03-03 11:46:43 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 11:46:49 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.671011099999305
+2026-03-03 12:41:22 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-03 12:41:22 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005526000168174505.
+2026-03-03 12:41:22 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-03 12:41:28 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.7198078999936115

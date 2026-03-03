@@ -10,7 +10,7 @@ from probtrade.utils import (
 )
 
 # === Agent State ===
-from probtrade.market_intelligence.langgraph.state import AgentState
+from probtrade.market_intelligence.langgraph.state import NewsState
 
 # === Data Logic ===
 from probtrade.data.database.save_news import NewsDuckDB
@@ -25,8 +25,8 @@ logger = get_logger(
 
 # === Function to remove the duplicated news articles ===
 async def apply_deduplicate(
-        state: AgentState
-) -> AgentState:
+        state: NewsState
+) -> NewsState:
     """
     Normalises the text and removes the duplicated news article before proceeding for the sentiment.
     """

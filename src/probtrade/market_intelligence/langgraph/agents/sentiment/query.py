@@ -5,8 +5,8 @@ import time
 # === Utils ===
 from probtrade.utils import GetQueries
 
-# === Agentstate ===
-from probtrade.market_intelligence.langgraph.state import AgentState
+# === NewsState ===
+from probtrade.market_intelligence.langgraph.state import NewsState
 
 # === Logger ===
 from probtrade import get_logger
@@ -19,8 +19,8 @@ logger = get_logger(
 
 # === Query Generation Node ===
 async def get_queries(
-    state: AgentState
-) -> AgentState:
+    state: NewsState
+) -> NewsState:
     """
     Loads the queries from the yaml file
     """
