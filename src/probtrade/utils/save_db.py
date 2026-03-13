@@ -6,7 +6,10 @@ from zoneinfo import ZoneInfo
 from typing import List, Dict, Any
 
 # === Database Logic ===
-from probtrade.data import NewsDuckDB
+from probtrade.data import (
+    NewsDuckDB,
+    VixDuckDB
+)
 
 # === Setting the time zone ===
 IST = ZoneInfo("Asia/Kolkata")
@@ -33,4 +36,52 @@ def append_news(
     ## === Appending data into the database ===
     news_db.insert_news_bulk_df(
         news_entries = data
+    )
+
+# === Function to append the VIX data to a table in the VIX database ===
+def append_vix(
+        vix_data: float
+) -> None:
+    """
+    Appends vix data to an existing table in the database and injects an ISO-8601 timestamp for each entry at write-time.
+    """
+    ## === Getting the current time ===
+    now = datetime.now(IST).isoformat()
+
+    ## === Converting the List into a Pandas DataFrame ===
+    data = pd.DataFrame(
+        [vix_data],
+        columns = ["vix_value"]
+    )
+
+    ## === Adding the Timestamp ===
+    data["timestamp"] = now
+
+    ## === Initiating the news db connection ===
+    vix_db = VixDuckDB()
+
+    ## === Appending data into the database ===
+    vix_db.save_all(
+        data = data
+    )
+
+def append_vix(
+        vix_data: float
+) -> None:
+    """
+    Appends vix data to an existing table in the database and injects an ISO-8601 timestamp for each entry at write-time.
+    """
+    now = datetime.now(IST).isoformat()
+
+    ## === Forming the Dataframe ===
+    data = pd.DataFrame([{
+        "timestamp": now,
+        "vix_value": float(vix_data)
+    }])
+
+    ## === initiating the VIX Logic ===
+    vix_db = VixDuckDB()
+
+    vix_db.save_all(
+        data = data
     )

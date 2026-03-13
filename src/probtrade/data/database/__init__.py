@@ -14,9 +14,14 @@ from .save_hist import (
     HistoricalDuckDB
 )
 
+from .save_vix import (
+    VixDuckDB
+)
+
 __all__ = [
     "AggDuckDB",
     "NewsDuckDB",
     "DailyNewsDuckDB",
-    "HistoricalDuckDB"
+    "HistoricalDuckDB",
+    "VixDuckDB"
 ]

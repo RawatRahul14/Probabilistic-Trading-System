@@ -1,5 +1,6 @@
 # === Python Modules ===
 import time
+from datetime import date
 from typing import List, Dict
 
 # === Utils ===
@@ -29,6 +30,9 @@ async def extract_vix_query(
     logger.info("Starting the VIX query ingestion.")
 
     try:
+        logger.info("=" * 70)
+        logger.info(f">>>>>>>> DATE: {date.today()} <<<<<<<<")
+
         vix_query: Dict[str, List[str]] = load_yaml(
             file_path = "config",
             file_name = "vix_query.yaml"

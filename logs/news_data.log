@@ -1335,3 +1335,289 @@ For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/erro
 2026-03-03 12:41:37 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments', 'vix_query', 'vix_fetched', 'india_vix']
 2026-03-03 12:41:37 | INFO | NEWS_DATA | ======================================================================
 
+2026-03-05 20:09:35 | INFO | NEWS_DATA | ======================================================================
+2026-03-05 20:09:35 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-05, run_id: 9fb9058f <<<<<<<<
+2026-03-05 20:09:35 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-05 20:09:35 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-05 20:09:35 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-05 20:09:35 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-05 20:09:35 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.14s.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 0.00s, Articles = 0.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.06s, Before = 0, After = 0.
+2026-03-05 20:09:36 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-03-05 20:09:37 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 1.35s, Items = 0.
+2026-03-05 20:09:37 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-03-05 20:09:37 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.02s.
+2026-03-05 20:09:38 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 410, in atick
+    _panic_or_proceed(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 520, in _panic_or_proceed
+    raise exc
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\extract_vix.py", line 21, in extract_india_vix
+    state.get("vix_fetched")[0][0]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+During task with name 'Node_3_Extract_India_Vix' and id '7e6b0f97-a5d7-86c5-5a5b-4d90c3d2961c'
+During task with name 'VIX_Branch' and id '541076da-4ba8-24f9-bddc-7d7a0141513f'
+2026-03-06 09:30:46 | INFO | NEWS_DATA | ======================================================================
+2026-03-06 09:30:46 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-06, run_id: 7319f05a <<<<<<<<
+2026-03-06 09:30:46 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-03-06 09:30:46 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-06 09:30:54 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 7.97s, Articles = 24.
+2026-03-06 09:30:54 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-06 09:30:54 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.15s, Before = 24, After = 24.
+2026-03-06 09:30:54 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-03-06 09:31:12 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 17.60s, Items = 24.
+2026-03-06 09:31:12 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-03-06 09:31:12 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.12s.
+2026-03-06 09:31:12 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-03-06 09:31:12 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments', 'vix_query', 'vix_fetched', 'india_vix']
+2026-03-06 09:31:12 | INFO | NEWS_DATA | ======================================================================
+
+2026-03-13 13:35:38 | INFO | NEWS_DATA | ======================================================================
+2026-03-13 13:35:38 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-13, run_id: 386cf87a <<<<<<<<
+2026-03-13 13:35:38 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.12s.
+2026-03-13 13:35:38 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-13 13:35:43 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 410, in atick
+    _panic_or_proceed(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 520, in _panic_or_proceed
+    raise exc
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 64, in append_vix
+    vix_db.save_all(
+TypeError: VixDuckDB.save_all() got an unexpected keyword argument 'news_entries'
+During task with name 'Node_4_Save_India_Vix' and id '5cd016c5-4943-e5a9-e1fd-0428ee909d42'
+During task with name 'VIX_Branch' and id '3a535cf9-8644-f8c7-31a2-d76d4694d2f3'
+2026-03-13 13:36:29 | INFO | NEWS_DATA | ======================================================================
+2026-03-13 13:36:29 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-13, run_id: 32008285 <<<<<<<<
+2026-03-13 13:36:29 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-03-13 13:36:29 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-13 13:36:34 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 410, in atick
+    _panic_or_proceed(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 520, in _panic_or_proceed
+    raise exc
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 64, in append_vix
+    vix_db.save_all(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_vix.py", line 46, in save_all
+    with duckdb.connect(str(self.db_path)) as conn:
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_vix.py", line 52, in save_all
+    conn.execute("""
+_duckdb.ConversionException: Conversion Error: Unimplemented type for cast (DOUBLE -> TIMESTAMP WITH TIME ZONE) when casting from source column vix_value
+During task with name 'Node_4_Save_India_Vix' and id '1c8d62a6-b101-29c1-69cd-a7bd73064f79'
+During task with name 'VIX_Branch' and id '1aa7e2ba-ce71-33d4-ccd2-25d0f213e066'
+2026-03-13 13:39:51 | INFO | NEWS_DATA | ======================================================================
+2026-03-13 13:39:51 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-13, run_id: 0ce6c2ff <<<<<<<<
+2026-03-13 13:39:51 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-03-13 13:39:51 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-13 13:39:55 | ERROR | NEWS_DATA | Fatal error while running Agentic AI Graph
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\pipelines\news_pipeline.py", line 30, in main
+    state = await graph.ainvoke(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 410, in atick
+    _panic_or_proceed(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 520, in _panic_or_proceed
+    raise exc
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3158, in ainvoke
+    async for chunk in self.astream(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2971, in astream
+    async for _ in runner.atick(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 304, in atick
+    await arun_with_retry(
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 705, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5570, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4907, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2109, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rahul\Desktop\Probabilistic-Trading-System\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4837, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 85, in append_vix
+    vix_db.save_all(
+TypeError: VixDuckDB.save_all() got an unexpected keyword argument 'news_entries'
+During task with name 'Node_4_Save_India_Vix' and id '7e12cae0-5ee1-bc99-f3d3-10124296e025'
+During task with name 'VIX_Branch' and id 'c007d4c1-c55e-546d-3ae5-2d2aec9a73dc'
+2026-03-13 13:40:16 | INFO | NEWS_DATA | ======================================================================
+2026-03-13 13:40:16 | INFO | NEWS_DATA | >>>>>>>> DATE: 2026-03-13, run_id: 56e73845 <<<<<<<<
+2026-03-13 13:40:16 | INFO | NEWS_DATA | >>>>>>> Starting Agentic AI Graph Pipeline <<<<<<<
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Initializing agentic graph
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Invoking agentic graph
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Initiated the `get_queries_node`.
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Loaded the queries successfully.
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Finished the `get_queries_node`, Duration = 0.10s.
+2026-03-13 13:40:16 | INFO | NEWS_DATA | Initiated the `fetch_data_node`.
+2026-03-13 13:40:22 | INFO | NEWS_DATA | Finished the `fetch_data_node`, Duration = 6.09s, Articles = 24.
+2026-03-13 13:40:22 | INFO | NEWS_DATA | Initiated the `apply_deduplicate_node`.
+2026-03-13 13:40:22 | INFO | NEWS_DATA | Finished the `apply_deduplicate_node`, , Duration = 0.04s, Before = 24, After = 24.
+2026-03-13 13:40:22 | INFO | NEWS_DATA | Initiated the `get_sentiment_node`.
+2026-03-13 13:40:32 | INFO | NEWS_DATA | Finished the `get_sentiment_node`, Duration = 9.41s, Items = 24.
+2026-03-13 13:40:32 | INFO | NEWS_DATA | Initiated the `save_data_node`.
+2026-03-13 13:40:32 | INFO | NEWS_DATA | Finished the `save_data_node`, Duration = 0.04s.
+2026-03-13 13:40:32 | INFO | NEWS_DATA | Agentic AI Graph completed successfully
+2026-03-13 13:40:32 | INFO | NEWS_DATA | Graph output keys: ['queries', 'contents', 'norm_content', 'sentiments', 'vix_query', 'vix_fetched', 'india_vix']
+2026-03-13 13:40:32 | INFO | NEWS_DATA | ======================================================================
+

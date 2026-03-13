@@ -22,7 +22,8 @@ from .agents import (
 from .agents import (
     extract_vix_query,
     get_vix,
-    extract_india_vix
+    extract_india_vix,
+    save_vix_db_node
 )
 
 # === Graph Workflow ===
@@ -127,6 +128,14 @@ def run_vix_subgraph():
             }
         )
     )
+    vix_workflow.add_node(
+        "Node_4_Save_India_Vix",
+        RunnableLambda(save_vix_db_node).with_config(
+            {
+                "run_async": True
+            }
+        )
+    )
 
     ## === Edges ===
     vix_workflow.add_edge(
@@ -139,7 +148,10 @@ def run_vix_subgraph():
         "Node_2_Get_Vix", "Node_3_Extract_India_Vix"
     )
     vix_workflow.add_edge(
-        "Node_3_Extract_India_Vix", END
+        "Node_3_Extract_India_Vix", "Node_4_Save_India_Vix"
+    )
+    vix_workflow.add_edge(
+        "Node_4_Save_India_Vix", END
     )
 
     return vix_workflow.compile()

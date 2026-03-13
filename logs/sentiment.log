@@ -451,3 +451,21 @@ AttributeError: 'dict' object has no attribute 'sentiment_score'
 2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0006400000129360706.
 2026-03-03 12:41:37 | INFO | SENTIMENT_AGGREGATION | ======================================================================
 
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-03-06, run_id: 7319f05a <<<<<<<<
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.002064900007098913.
+2026-03-06 09:31:12 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | >>>>>>>> DATE: 2026-03-13, run_id: 56e73845 <<<<<<<<
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | >>>>>>> Starting Sentiment Aggregation Pipeline <<<<<<<
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | Extracting Data from Agentic Graph State.
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | Successfully Extracted Data from Agentic Graph State.
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | Computing the aggregated sentiment using cpp.
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | Finished computing the aggregated sentiment using cpp, Duration: 0.0005885999999009073.
+2026-03-13 13:40:32 | INFO | SENTIMENT_AGGREGATION | ======================================================================
+

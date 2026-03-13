@@ -16,8 +16,11 @@ The system follows a **Medallion Architecture** to transform raw market noise in
 - **Ingestion Layer (Python)**: Orchestrates data fetching for 82+ tickers across multiple timeframes ($5m, 15m, 30m, 1h, 1d$) using `yfinance` and news data using `Tavily`.
 - **Storage Layer (DuckDB)**: An OLAP-optimized database for high-speed time-series queries and vectorized data management.
 - **Computational Kernel (C++/pybind11)**: High-speed technical indicator calculations and "NewsPressure" algorithms implemented in pure C++ for sub-millisecond execution.
-- **Intelligence Layer (AI)**: An agentic workflow that processes news sentiment through a multi-stage pipeline (Query → Dedup → Sentiment → Save).
+- **Intelligence Layer (AI / LangGraph)**: An agentic workflow orchestrated by LangGraph that runs multiple specialized agents in parallel:
+    - **Sentiment Agent** – Processes market news through a multi-stage pipeline (Query -> Dedup -> Sentiment -> Save).
+    - **VIX Ingestion Agent** – Continuously ingests and normalizes volatility data (India VIX) to provide real-time market fear/uncertainty signals.
 
+These agents execute concurrently using LangGraph's parallel node execution to minimize latency while enriching the probabilistic state used by the regime detection model.
 ### 🎯 Probabilistic Target Objective
 
 The system estimates the conditional probability of a market regime given the current technical, sentiment, and volatility state:
@@ -54,6 +57,21 @@ The probability/ module (in development) uses the combined data from technical i
 - Trending High-Confidence
 - Mean Reverting
 - High-Volatility Noise
+
+4. Parallel Agent Execution (LangGraph)
+The system runs two specialized agents in parallel using LangGraph:
+
+- **Sentiment Agent**
+    - Fetches market news using Tavily
+    - Deduplicates articles to avoid narrative amplification
+    - Generates structured sentiment scores using LLM prompts
+
+- **VIX Ingestion Agent**
+    - Ingests and tracks India VIX data
+    - Quantifies market fear and volatility expectations
+    - Feeds volatility state directly into the probabilistic regime model
+
+Running these agents concurrently ensures that **news sentiment and volatility signals are ingested with minimal latency**, allowing the probabilistic model to react to evolving market conditions faster.
 
 ### ⚡ Performance & Optimization: The Async Leap
 The news sentiment pipeline was recently overhauled from a **sequential execution** model to an **Asynchronous Multi-Agent** architecture. By parallelizing I/O-bound tasks and implementing a C++ aggregation layer, the system now processes larger volumes of data in a fraction of the time.

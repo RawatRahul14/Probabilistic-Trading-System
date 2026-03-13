@@ -61,3 +61,101 @@
 2026-03-03 12:41:22 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0005526000168174505.
 2026-03-03 12:41:22 | INFO | VIX | Starting the VIX fetching from the web.
 2026-03-03 12:41:28 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.7198078999936115
+2026-03-05 20:09:36 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-05 20:09:36 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0013986999983899295.
+2026-03-05 20:09:36 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-05 20:09:37 | INFO | VIX | Completed the VIX fetching from the web. Duration: 1.9438644999754615
+2026-03-06 09:29:19 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-06 09:29:19 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.03076090000104159.
+2026-03-06 09:29:20 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-06 09:29:26 | INFO | VIX | Completed the VIX fetching from the web. Duration: 5.256591000012122
+2026-03-06 09:30:46 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-06 09:30:46 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0008151999791152775.
+2026-03-06 09:30:46 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-06 09:30:53 | INFO | VIX | Completed the VIX fetching from the web. Duration: 7.309778599999845
+2026-03-13 13:35:38 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:35:38 | INFO | VIX | ======================================================================
+2026-03-13 13:35:38 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:35:38 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0014310000005934853.
+2026-03-13 13:35:38 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:35:43 | INFO | VIX | Completed the VIX fetching from the web. Duration: 4.60201749999942
+2026-03-13 13:35:43 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:35:43 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:35:43 | INFO | VIX | Saving the fetched VIX value in the Database.
+2026-03-13 13:35:43 | ERROR | VIX | Error Saving the VIX value in the database.
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 64, in append_vix
+    vix_db.save_all(
+TypeError: VixDuckDB.save_all() got an unexpected keyword argument 'news_entries'
+2026-03-13 13:36:29 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:36:29 | INFO | VIX | ======================================================================
+2026-03-13 13:36:29 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:36:29 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0008950999999797205.
+2026-03-13 13:36:29 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:36:34 | INFO | VIX | Completed the VIX fetching from the web. Duration: 4.5308812000002945
+2026-03-13 13:36:34 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:36:34 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:36:34 | INFO | VIX | Saving the fetched VIX value in the Database.
+2026-03-13 13:36:34 | ERROR | VIX | Error Saving the VIX value in the database.
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 64, in append_vix
+    vix_db.save_all(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_vix.py", line 46, in save_all
+    with duckdb.connect(str(self.db_path)) as conn:
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\data\database\save_vix.py", line 52, in save_all
+    conn.execute("""
+_duckdb.ConversionException: Conversion Error: Unimplemented type for cast (DOUBLE -> TIMESTAMP WITH TIME ZONE) when casting from source column vix_value
+2026-03-13 13:39:51 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:39:51 | INFO | VIX | ======================================================================
+2026-03-13 13:39:51 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:39:51 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.001031199999488308.
+2026-03-13 13:39:51 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:39:55 | INFO | VIX | Completed the VIX fetching from the web. Duration: 4.464077099999486
+2026-03-13 13:39:55 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:39:55 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:39:55 | INFO | VIX | Saving the fetched VIX value in the Database.
+2026-03-13 13:39:55 | ERROR | VIX | Error Saving the VIX value in the database.
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\market_intelligence\langgraph\agents\vix_model\vix_save_node.py", line 29, in save_vix_db_node
+    append_vix(
+  File "C:\Users\rahul\Desktop\Probabilistic-Trading-System\src\probtrade\utils\save_db.py", line 85, in append_vix
+    vix_db.save_all(
+TypeError: VixDuckDB.save_all() got an unexpected keyword argument 'news_entries'
+2026-03-13 13:40:16 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:40:16 | INFO | VIX | ======================================================================
+2026-03-13 13:40:16 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:40:16 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0009386000001541106.
+2026-03-13 13:40:16 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:40:21 | INFO | VIX | Completed the VIX fetching from the web. Duration: 4.265442899999471
+2026-03-13 13:40:21 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:40:21 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:40:21 | INFO | VIX | Saving the fetched VIX value in the Database.
+2026-03-13 13:40:21 | INFO | VIX | Completed in saving the fetched VIX value in the Database.
+2026-03-13 13:43:18 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:43:18 | INFO | VIX | ======================================================================
+2026-03-13 13:43:18 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:43:18 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0010782999997900333.
+2026-03-13 13:43:19 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:43:22 | INFO | VIX | Completed the VIX fetching from the web. Duration: 2.5495010999984515
+2026-03-13 13:43:23 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:43:23 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:44:39 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:44:39 | INFO | VIX | ======================================================================
+2026-03-13 13:44:39 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:44:39 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0012378000010357937.
+2026-03-13 13:44:39 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:44:42 | INFO | VIX | Completed the VIX fetching from the web. Duration: 2.977977299999111
+2026-03-13 13:44:42 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:44:42 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0
+2026-03-13 13:45:12 | INFO | VIX | Starting the VIX query ingestion.
+2026-03-13 13:45:12 | INFO | VIX | ======================================================================
+2026-03-13 13:45:12 | INFO | VIX | >>>>>>>> DATE: 2026-03-13 <<<<<<<<
+2026-03-13 13:45:12 | INFO | VIX | Completed the VIX query ingestion, Duration = 0.0011359999989508651.
+2026-03-13 13:45:12 | INFO | VIX | Starting the VIX fetching from the web.
+2026-03-13 13:45:14 | INFO | VIX | Completed the VIX fetching from the web. Duration: 2.7233866000005946
+2026-03-13 13:45:14 | INFO | VIX | Starting the VIX Exttracting from the fetched data.
+2026-03-13 13:45:14 | INFO | VIX | Completed the VIX Exttracting from the fetched data. VIX = 0.0

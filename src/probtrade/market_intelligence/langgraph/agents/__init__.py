@@ -9,7 +9,8 @@ from .sentiment import (
 from .vix_model import (
     extract_vix_query,
     get_vix,
-    extract_india_vix
+    extract_india_vix,
+    save_vix_db_node
 )
 
 __all__ = [
@@ -20,5 +21,6 @@ __all__ = [
     "apply_deduplicate",
     "extract_vix_query",
     "get_vix",
-    "extract_india_vix"
+    "extract_india_vix",
+    "save_vix_db_node"
 ]

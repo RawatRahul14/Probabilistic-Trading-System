@@ -29,7 +29,8 @@ from .sentiment_utils import (
 )
 
 from .save_db import (
-    append_news
+    append_news,
+    append_vix
 )
 
 from .dedup_utils import (
@@ -53,5 +54,6 @@ __all__ = [
     "GetQueries",
     "normalize_text",
     "get_content",
-    "normalise_ticker"
+    "normalise_ticker",
+    "append_vix"
 ]

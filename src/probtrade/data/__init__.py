@@ -1,11 +1,13 @@
 from .database import (
     AggDuckDB,
     NewsDuckDB,
-    DailyNewsDuckDB
+    DailyNewsDuckDB,
+    VixDuckDB
 )
 
 __all__ = [
     "AggDuckDB",
     "NewsDuckDB",
-    "DailyNewsDuckDB"
+    "DailyNewsDuckDB",
+    "VixDuckDB"
 ]
