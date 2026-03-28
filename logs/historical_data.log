@@ -12858,3 +12858,45 @@ RuntimeError: No active exception to reraise
 2026-02-11 10:59:57 | INFO | HISTORICAL_DATA | Historical Data Ingestion Pipeline completed successfully, Duration: 158.8387822000077.
 2026-02-11 10:59:57 | INFO | HISTORICAL_DATA | ======================================================================
 
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | ======================================================================
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | >>>>>>>> DATE: 2026-03-28 <<<<<<<<
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | >>>>>>> Starting Historical Data Ingestion Pipeline, timeframes downloading: [] <<<<<<<
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | Starting downloading the tickers.
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | Starting the timeframe: 5m.
+2026-03-28 10:34:48 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:35:19 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 82, download completed: 82, download failed: 0
+2026-03-28 10:35:33 | INFO | HISTORICAL_DATA | Starting the timeframe: 15m.
+2026-03-28 10:35:33 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:35:57 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 82, download completed: 82, download failed: 0
+2026-03-28 10:36:12 | INFO | HISTORICAL_DATA | Starting the timeframe: 30m.
+2026-03-28 10:36:12 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:36:36 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 82, download completed: 82, download failed: 0
+2026-03-28 10:36:50 | INFO | HISTORICAL_DATA | Starting the timeframe: 1h.
+2026-03-28 10:36:50 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:12 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 82, download completed: 82, download failed: 0
+2026-03-28 10:37:25 | INFO | HISTORICAL_DATA | Starting the timeframe: 1d.
+2026-03-28 10:37:25 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:47 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 82, download completed: 82, download failed: 0
+2026-03-28 10:37:56 | INFO | HISTORICAL_DATA | All downloads completed successfully.
+2026-03-28 10:37:56 | INFO | HISTORICAL_DATA | Completed downloading the tickers.
+2026-03-28 10:37:56 | INFO | HISTORICAL_DATA | Starting downloading the indexes.
+2026-03-28 10:37:56 | INFO | HISTORICAL_DATA | Starting the timeframe: 5m.
+2026-03-28 10:37:56 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 1, download completed: 1, download failed: 0
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the timeframe: 15m.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 1, download completed: 1, download failed: 0
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the timeframe: 30m.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 1, download completed: 1, download failed: 0
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the timeframe: 1h.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:57 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 1, download completed: 1, download failed: 0
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | Starting the timeframe: 1d.
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | Starting the historical data download.
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | Download complete! Total number of indexes/tickers: 1, download completed: 1, download failed: 0
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | All downloads completed successfully. Last update date has been updated.
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | Completed downloading the indexes.
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | Historical Data Ingestion Pipeline completed successfully, Duration: 189.60531159996754.
+2026-03-28 10:37:58 | INFO | HISTORICAL_DATA | ======================================================================
+

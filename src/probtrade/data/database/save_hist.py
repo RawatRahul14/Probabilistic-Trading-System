@@ -23,7 +23,7 @@ class HistoricalDuckDB:
         """
         TABLE_SCHEMA = """
             CREATE TABLE IF NOT EXISTS {ticker_index_name} (
-                datetime TIMESTAMP,
+                datetime TIMESTAMP PRIMARY KEY,
                 open DOUBLE,
                 high DOUBLE,
                 low DOUBLE,
@@ -84,7 +84,7 @@ class HistoricalDuckDB:
 
                 # Insert from temporary table
                 conn.execute(f"""
-                    INSERT INTO {key} (
+                    INSERT OR REPLACE INTO {key} (
                         datetime,
                         open,
                         high,
