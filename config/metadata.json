@@ -1,17 +1,34 @@
 {
+    "first_update_done": false,
     "time_frame_5m": {
-        "last_candle": {
-            "last_close": null,
-            "last_high": null,
-            "last_low": null
-        },
-        "indicators": {
-            "old_window_start_price": {
-                "close": null,
-                "high": null,
-                "low": null
+        "window_5": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
             },
-            "window_5": {
+            "indicators": {
+                "sma": {
+                    "previous_sma": null
+                },
+                "ema": {
+                    "previous_ema": null
+                },
+                "adx": {
+                    "previous_adx": null,
+                    "previous_smoothed_tr": null,
+                    "previous_smoothed_plus_dm": null,
+                    "previous_smoothed_minus_dm": null
+                }
+            }
+        },
+        "window_10": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
+            },
+            "indicators": {
                 "sma": {
                     "previous_sma": null
                 },
@@ -28,18 +45,34 @@
         }
     },
     "time_frame_15m": {
-        "last_candle": {
-            "last_close": null,
-            "last_high": null,
-            "last_low": null
-        },
-        "indicators": {
-            "old_window_start_price": {
-                "close": null,
-                "high": null,
-                "low": null
+        "window_5": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
             },
-            "window_5": {
+            "indicators": {
+                "sma": {
+                    "previous_sma": null
+                },
+                "ema": {
+                    "previous_ema": null
+                },
+                "adx": {
+                    "previous_adx": null,
+                    "previous_smoothed_tr": null,
+                    "previous_smoothed_plus_dm": null,
+                    "previous_smoothed_minus_dm": null
+                }
+            }
+        },
+        "window_10": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
+            },
+            "indicators": {
                 "sma": {
                     "previous_sma": null
                 },
@@ -56,18 +89,34 @@
         }
     },
     "time_frame_30m": {
-        "last_candle": {
-            "last_close": null,
-            "last_high": null,
-            "last_low": null
-        },
-        "indicators": {
-            "old_window_start_price": {
-                "close": null,
-                "high": null,
-                "low": null
+        "window_5": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
             },
-            "window_5": {
+            "indicators": {
+                "sma": {
+                    "previous_sma": null
+                },
+                "ema": {
+                    "previous_ema": null
+                },
+                "adx": {
+                    "previous_adx": null,
+                    "previous_smoothed_tr": null,
+                    "previous_smoothed_plus_dm": null,
+                    "previous_smoothed_minus_dm": null
+                }
+            }
+        },
+        "window_10": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
+            },
+            "indicators": {
                 "sma": {
                     "previous_sma": null
                 },
@@ -84,18 +133,34 @@
         }
     },
     "time_frame_1h": {
-        "last_candle": {
-            "last_close": null,
-            "last_high": null,
-            "last_low": null
-        },
-        "indicators": {
-            "old_window_start_price": {
-                "close": null,
-                "high": null,
-                "low": null
+        "window_5": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
             },
-            "window_5": {
+            "indicators": {
+                "sma": {
+                    "previous_sma": null
+                },
+                "ema": {
+                    "previous_ema": null
+                },
+                "adx": {
+                    "previous_adx": null,
+                    "previous_smoothed_tr": null,
+                    "previous_smoothed_plus_dm": null,
+                    "previous_smoothed_minus_dm": null
+                }
+            }
+        },
+        "window_10": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
+            },
+            "indicators": {
                 "sma": {
                     "previous_sma": null
                 },
@@ -112,18 +177,34 @@
         }
     },
     "time_frame_1d": {
-        "last_candle": {
-            "last_close": null,
-            "last_high": null,
-            "last_low": null
-        },
-        "indicators": {
-            "old_window_start_price": {
-                "close": null,
-                "high": null,
-                "low": null
+        "window_5": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
             },
-            "window_5": {
+            "indicators": {
+                "sma": {
+                    "previous_sma": null
+                },
+                "ema": {
+                    "previous_ema": null
+                },
+                "adx": {
+                    "previous_adx": null,
+                    "previous_smoothed_tr": null,
+                    "previous_smoothed_plus_dm": null,
+                    "previous_smoothed_minus_dm": null
+                }
+            }
+        },
+        "window_10": {
+            "old_window": {
+                "close": [],
+                "high": [],
+                "low": []
+            },
+            "indicators": {
                 "sma": {
                     "previous_sma": null
                 },
