@@ -7,7 +7,9 @@
 ![Status](https://img.shields.io/badge/Status-Production%20Oriented-success)
 
 ### Overview
-A high-performance, hybrid **Probabilistic Market Regime Detection System** designed for the Indian equity markets. This system combines the agentic reasoning of LLMs with the raw speed of C++ to quantify market sentiment and price action into probabilistic decision-support signals.
+Financial markets are inherently noisy and non-stationary, rendering deterministic signals unreliable as conditions shift. This production-oriented, latency-aware system bridges the gap between raw data and actionable intelligence by modeling market states as a **Probability Distribution** conditioned on price action, sentiment, and volatility.
+
+Specifically optimized for the Indian equity markets, the platform combines the **Agentic Reasoning of LLMs** with **High-Performance C++ computation**. Instead of binary outputs, it provides **Probabilistic Regime Classification** to empower systematic traders in strategy selection, position sizing, and risk management.
 
 ### 🚀 System Architecture
 
