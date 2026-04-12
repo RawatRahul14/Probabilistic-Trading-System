@@ -43,11 +43,11 @@ The `RecordIndicators` utility ensures system resilience and cold-start efficien
 The system calculates the conditional probability of the current market state by fusing technical signals, sentiment intensity, and volatility metrics:
 
 $$
-\underbrace{P(Regime_t \mid Technical_t, \dots, NewsPressure_t, Volatility_t)}_{\text{Market State}}
+P(Regime_t \mid \underbrace{Technical_t, \dots, NewsPressure_t, Volatility_t}_{\text{Market State}})
 $$
 
 Where the system quantifies the environment through:
-- $\text{Regime}_t \in \{ \text{Trending, Mean-Reverting, High-Volatility Noise} \}$: The latent market state the system seeks to classify.
+- $\text{Regime}_t \in \{ \text{Trending, Mean-Reverting, ..., High-Volatility Noise} \}$: The latent market state the system seeks to classify.
 - $\text{Technical Indicators}_t$: A stateful vector of price-action features (SMA, EMA, ADX) calculated with $O(1)$ complexity.
 - $\dots$: Expansion slots for upcoming Momentum, Volume, and Liquidity features currently in the `feature/indicators/`.
 - $\text{News Pressure}_t$: A proprietary intensity metric derived from the Async Multi-Agent Sentiment Pipeline, quantifying the impact of external narrative shifts.
@@ -63,24 +63,24 @@ Please note that while this repository demonstrates the system's **architecture,
 - **Language**: Python 3.x, C++17/20
 - **Database**: DuckDB
 - **Bindings**: pybind11
-- **Tools**: LangChain, LangGraph, Pydantic
+- **Tools**: LangChain, LangGraph, LangSmith, Pydantic
 - **Data Sourcing**: yfinance, Tavily
 
 ### 🚀 Key Features
 1. **Agentic Sentiment Analysis**  
 Unlike static sentiment tools, this system uses a **LangGraph-driven pipeline** to:
-- Search for event-specific news via `Tavily`.
-- Deduplicate information to avoid "echo chamber" bias.
-- Score sentiment using structured LLM prompts.
+    - Search for event-specific news via `Tavily`.
+    - Deduplicate information to avoid "echo chamber" bias.
+    - Score sentiment using structured LLM prompts.
 
 2. C++ NewsPressure Engine  
 The system calculates NewsPressure, a quantitative metric of how news volume and sentiment intensity are likely to impact price volatility.
 
 3. Market Regime Detection  
 The probability/ module (in development) uses the combined data from technical indicators and sentiment to classify the market into regimes:
-- Trending High-Confidence
-- Mean Reverting
-- High-Volatility Noise
+    - Trending High-Confidence
+    - Mean Reverting
+    - High-Volatility Noise
 
 4. Parallel Agent Execution (LangGraph)
 The system runs two specialized agents in parallel using LangGraph:
@@ -113,7 +113,7 @@ Full benchmark logs: [View Logs](logs/)
 
 ### 🧠 Design Philosophy
 
-- **Probabilistic > Deterministic Signals** - Markets are noisy systems; outputs are expressed as probability distributions, not binary signals.
-- **Latency-Aware Architecture** - IO-bound and compute-bound tasks are separated (Async Python vs C++ kernels).
-- **Agentic Over Monolithic AI** - Multi-stage reasoning pipelines provide auditability and explainability.
-- **Production-Oriented Engineering** - Logging, metadata persistence, benchmarking, and modular compute kernels are first-class citizens.
+- **Probabilistic > Deterministic Signals**: Markets are noisy systems; outputs are expressed as probability distributions, not binary signals.
+- **Latency-Aware Architecture**: IO-bound and compute-bound tasks are separated (Async Python vs C++ kernels).
+- **Agentic Over Monolithic AI**: Multi-stage reasoning pipelines provide auditability and explainability.
+- **Production-Oriented Engineering**: Logging, metadata persistence, benchmarking, and modular compute kernels are first-class citizens.
