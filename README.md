@@ -21,13 +21,35 @@ The system follows a **Medallion Architecture** to transform raw market noise in
     - **VIX Ingestion Agent** – Continuously ingests and normalizes volatility data (India VIX) to provide real-time market fear/uncertainty signals.
 
 These agents execute concurrently using LangGraph's parallel node execution to minimize latency while enriching the probabilistic state used by the regime detection model.
+
+### 📊 Feature Engineering & Indicators
+The system implements a robust feature engineering pipeline focused on **Trend, Momentum, Volatility, and Volume**. Recent updates have introduced a **Stateful Indicator Engine** to handle live market feeds efficiently.
+
+1. Incremental Calculation Logic
+To avoid the computational overhead of recalculating full historical windows on every new tick, the system utilizes incremental math for core indicators:
+    - **Stateful SMA/EMA**: Updates averages using only the previous state and the incoming price point.
+    - **Wilder’s Smoothing (ADX)**: Implements incremental True Range (TR) and Directional Movement (+DM/-DM) smoothing to maintain accuracy across streaming data.
+    - **Multi-Timeframe Support**: Native handling of windows ($5, 10, 20$) across all standard timeframes ($5m$ to $1d$).
+
+2. Metadata & Persistence
+The `RecordIndicators` utility ensures system resilience and cold-start efficiency:
+    - **Metadata Tracking**: Persists the last known state of all indicators in `metadata.json`.
+    - **Seamless Transitions**: On system restart, the kernel bootstraps using historical state, allowing for immediate, accurate signal generation without "warming up" windows.
+
 ### 🎯 Probabilistic Target Objective
 
-The system estimates the conditional probability of a market regime given the current technical, sentiment, and volatility state:
+The system calculates the conditional probability of the current market state by fusing technical signals, sentiment intensity, and volatility metrics:
 
 $$
-P(Regime_t \mid Technical_t,\ NewsPressure_t,\ Volatility_t)
+\underbrace{P(Regime_t \mid Technical_t, \dots, NewsPressure_t, Volatility_t)}_{\text{Market State}}
 $$
+
+Where the system quantifies the environment through:
+- $\text{Regime}_t \in \{ \text{Trending, Mean-Reverting, High-Volatility Noise} \}$: The latent market state the system seeks to classify.
+- $\text{Technical Indicators}_t$: A stateful vector of price-action features (SMA, EMA, ADX) calculated with $O(1)$ complexity.
+- $\dots$: Expansion slots for upcoming Momentum, Volume, and Liquidity features currently in the `feature/indicators/`.
+- $\text{News Pressure}_t$: A proprietary intensity metric derived from the Async Multi-Agent Sentiment Pipeline, quantifying the impact of external narrative shifts.
+- $\text{Volatility}_t$: Real-time fear gauge signals ingested from India VIX, used to adjust the confidence intervals of the probabilistic output.
 
 ### 🔒 Proprietary Notice & Core Logic
 Please note that while this repository demonstrates the system's **architecture, data engineering pipelines, and high-performance C++ kernels**, certain core proprietary components have been intentionally omitted to protect intellectual property. These include:
@@ -92,4 +114,4 @@ Full benchmark logs: [View Logs](logs/)
 - **Probabilistic > Deterministic Signals** - Markets are noisy systems; outputs are expressed as probability distributions, not binary signals.
 - **Latency-Aware Architecture** - IO-bound and compute-bound tasks are separated (Async Python vs C++ kernels).
 - **Agentic Over Monolithic AI** - Multi-stage reasoning pipelines provide auditability and explainability.
-- **Production-Oriented Engineering** - Logging, benchmarking, and modular compute kernels are first-class citizens.
+- **Production-Oriented Engineering** - Logging, metadata persistence, benchmarking, and modular compute kernels are first-class citizens.
