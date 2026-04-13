@@ -4,7 +4,6 @@ Directional (SMA, EMA, ADX, SuperTrend)
 # === Python Modules ===
 import numpy as np
 import pandas as pd
-from typing import Literal, List
 
 # === Class for Trend Based Indicators ===
 class TrendIndicators:
@@ -25,8 +24,8 @@ class TrendIndicators:
         self.close = data[close_col]
 
         ## === High and Low Prices (Optional for ADX, SuperTrend) ===
-        self.high = data[high_col] if high_col else None
-        self.low  = data[low_col] if low_col  else None
+        self.high = data[high_col]
+        self.low  = data[low_col]
 
         ## === Combined Prices Dataframe ===
         self.prices = pd.concat(
