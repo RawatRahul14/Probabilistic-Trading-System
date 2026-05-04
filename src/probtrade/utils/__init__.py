@@ -42,6 +42,10 @@ from .hist_utils import (
     normalise_ticker
 )
 
+from .feature_utils import (
+    RecordIndicators
+)
+
 __all__ = [
     "load_yaml",
     "save_yaml",
@@ -55,5 +59,6 @@ __all__ = [
     "normalize_text",
     "get_content",
     "normalise_ticker",
-    "append_vix"
+    "append_vix",
+    "RecordIndicators"
 ]

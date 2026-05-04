@@ -18,10 +18,13 @@ from .get_hist_pipeline import (
     HistPipeline
 )
 
+from .indicator_pipeline import IndicatorPipeline
+
 __all__ = [
     "AgenticAiPipeline",
     "SentimentAggPipeline",
     "SentimentSavePipeline",
     "DailyNewsPipeline",
-    "HistPipeline"
+    "HistPipeline",
+    "IndicatorPipeline"
 ]

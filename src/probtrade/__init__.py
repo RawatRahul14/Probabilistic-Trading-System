@@ -19,7 +19,8 @@ def get_logger(
             "Main",
             "DAILY_NEWS_AGG",
             "HISTORICAL_DATA",
-            "VIX"
+            "VIX",
+            "INDICATOR"
         ],
         log_file: Literal[
             "news_data.log",
@@ -28,7 +29,8 @@ def get_logger(
             "save_sentiment.log",
             "daily_news_agg.log",
             "historical_data.log",
-            "vix.log"
+            "vix.log",
+            "indicator.log"
         ],
         level: int = logging.INFO
 ) -> logging.Logger:
